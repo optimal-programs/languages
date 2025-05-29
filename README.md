@@ -1,4 +1,4 @@
-# Strings used for the user interface
+# Translation strings used by the user interface
 
 Software using these strings:
 
