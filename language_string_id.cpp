@@ -907,6 +907,9 @@ char s_Parameterized_products[200];
 char s_Simple_products[200];
 char s_Number_of_digits_after_the_decimal_separator[300];
 char s_Percentages[50];
+
+char s_Area[50];
+char s_Mass[50];
 //------------------------------------------------------------------
 void set_composed_words(void)
 {

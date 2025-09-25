@@ -893,5 +893,8 @@ extern char s_Parameterized_products[200];
 extern char s_Simple_products[200];
 extern char s_Number_of_digits_after_the_decimal_separator[300];
 extern char s_Percentages[50];
+
+extern char s_Area[50];
+extern char s_Mass[50];
 //----------------------------------------------------------------
 #endif

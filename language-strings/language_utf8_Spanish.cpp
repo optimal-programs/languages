@@ -9,8 +9,10 @@
 void set_es(void)
 {
 	//Spanish
-	//translated by a customer
-	//2025.3.29.0
+	// checked manually with GT
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Área");
+	strcpy(s_Mass, "Masa");
 	strcpy(s_Advanced, "Avanzada");
 	strcpy(s_Relative_coordinates, "Coordenadas relativas");
 	strcpy(s_Absolute_coordinates, "Coordenadas absolutas");
@@ -38,7 +40,7 @@ void set_es(void)
 	strcpy(s_Contact_us, "Contacta con nosotras");
 	strcpy(s_Column, "Columna");
 	strcpy(s_Comma, "Coma");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "¡El símbolo de coma no puede ser simultáneamente separador de lista y separador decimal!");
 	strcpy(s_Copy, "Copiar");
 	strcpy(s_Copy_for_move, "Copiar para mover");
 	strcpy(s_Cut_higher_level_strips_first, "Corte primero las tiras de nivel superior");
@@ -135,7 +137,7 @@ void set_es(void)
 	strcpy(s_Starting_direction, "Dirección de inicio");
 	strcpy(s_Stock, "Inventario");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Configuración del sistema");
 	strcpy(s_Tabular, "Tabular");
 	strcpy(s_Total, "Total");
 	strcpy(s_Total_size, "Tamaño total");
@@ -648,7 +650,7 @@ void set_es(void)
 	strcpy(sTwoPanels, "2 paneles");
 	strcpy(sType, "tipo");
 	strcpy(sTypeofmaterialfromwhichtocut, "Tipo de material del que cortar");
-	strcpy(sTypesAreNotMatched, "¡¡¡El corte no se realizó!!! Las piezas se cortarán de hojas del Stock que tengan el mismo tipo de material. ¡Actualmentemente, en el  stock, no hay  tal material! ¡Cambie algunos materiales en la columna correspondiente!");
+	strcpy(sTypesAreNotMatched, "¡No se realizó la optimización! Los materiales de las tablas de Piezas y Stock no coinciden. Solo se puede cortar una pieza del material con el mismo nombre en stock. Cambie el nombre de los materiales en las columnas correspondientes.");
 	strcpy(sUndo, "Deshacer");
 	strcpy(sUndoAccept, "Deshacer aceptar");
 	strcpy(sUnits, "unidades");
@@ -694,4 +696,16 @@ void set_es(void)
 	strcpy(sZip, "Código posta");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Establecer el origen y la dirección de los ejes de coordenadas.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Número de dígitos después del separador decimal");
+	strcpy(s_Percentages, "Porcentajes");
 }
+

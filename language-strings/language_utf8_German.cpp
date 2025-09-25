@@ -9,8 +9,10 @@
 void set_de(void)
 {
 	//German
-	//checked by a customer
-	//2025.3.29.0
+	//checked manually, but needs human revision
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Fläche");
+	strcpy(s_Mass, "Masse");
 	strcpy(s_Advanced, "Fortschrittlich");
 	strcpy(s_Relative_coordinates, "Relative Koordinaten");
 	strcpy(s_Absolute_coordinates, "Absolute Koordinaten");
@@ -38,7 +40,7 @@ void set_de(void)
 	strcpy(s_Contact_us, "Kontaktiere uns");
 	strcpy(s_Column, "Spalte");
 	strcpy(s_Comma, "Komma");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Das Komma-Symbol kann nicht gleichzeitig Listentrennzeichen und Dezimaltrennzeichen sein!");
 	strcpy(s_Copy, "Kopieren");
 	strcpy(s_Copy_for_move, "Zum Verschieben kopieren");
 	strcpy(s_Cut_higher_level_strips_first, "Schneiden Sie zuerst die höherwertigen Streifen");
@@ -135,7 +137,7 @@ void set_de(void)
 
 	strcpy(s_Stock, "Warenhaus");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Systemeinstellung");
 	strcpy(s_Tabular, "Tabellarisch");
 	strcpy(s_Total, "Gesamt");
 	strcpy(s_Total_size, "Gesamtgröße");
@@ -648,7 +650,7 @@ void set_de(void)
 	strcpy(sTwoPanels, "2 Platten");
 	strcpy(sType, "Art");
 	strcpy(sTypeofmaterialfromwhichtocut, "Zu schneiudende Materialart");
-	strcpy(sTypesAreNotMatched, "Die Optimierung wurde nicht durchgeführt! Teil wird aus Blechen aus dem Lager mit derselben Materialart geschnitten werden. Derzeit kein solches Material im Lager!");
+	strcpy(sTypesAreNotMatched, "Die Optimierung wurde nicht durchgeführt! Die Materialien aus den Teile- und Lagertabellen stimmen nicht überein! Ein Teil kann nur aus dem gleichnamigen Material aus dem Lager gefertigt werden. Ändern Sie die Materialnamen in den entsprechenden Spalten!");
 	strcpy(sUndo, "Rückgängig machen");
 	strcpy(sUndoAccept, "Rückgängig Akzeptieren");
 	strcpy(sUnits, "Einheiten");
@@ -694,4 +696,16 @@ void set_de(void)
 	strcpy(sZip, "Postleitzah");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Legen Sie den Ursprung und die Richtung der Koordinatenachsen fest.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Anzahl der Ziffern nach dem Dezimaltrennzeichen");
+	strcpy(s_Percentages, "Prozentsätze");
 }
+

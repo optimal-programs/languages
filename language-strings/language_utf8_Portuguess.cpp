@@ -9,8 +9,10 @@
 void set_pt(void)
 {
 	//Portuguess
-	//automatic translation
-	//2025.3.29.0
+	//did not check manually
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Área");
+	strcpy(s_Mass, "Massa");
 	strcpy(s_Advanced, "Avançada");
 	strcpy(s_Relative_coordinates, "Coordenadas relativas");
 	strcpy(s_Absolute_coordinates, "");
@@ -38,7 +40,7 @@ void set_pt(void)
 	strcpy(s_Contact_us, "Contate-nos");
 	strcpy(s_Column, "Coluna");
 	strcpy(s_Comma, "Vírgula");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "O símbolo de vírgula não pode ser simultaneamente o separador de lista e o separador decimal!");
 	strcpy(s_Copy, "cópia de");
 	strcpy(s_Copy_for_move, "Cópia para mover");
 	strcpy(s_Cut_higher_level_strips_first, "Corte primeiro as tiras de nível superior");
@@ -135,7 +137,7 @@ void set_pt(void)
 
 	strcpy(s_Stock, "Armzem");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Configuração do sistema");
 	strcpy(s_Tabular, "Tabular");
 	strcpy(s_Total, "Total");
 	strcpy(s_Total_size, "Tamanho total");
@@ -648,7 +650,7 @@ void set_pt(void)
 	strcpy(sTwoPanels, "2 painéis");
 	strcpy(sType, "tipo");
 	strcpy(sTypeofmaterialfromwhichtocut, "Tipo de material a partir do qual a cortar");
-	strcpy(sTypesAreNotMatched, "A otimização não foi realizada! Peças vão ser cortados a partir de folhas de inventário que tenham o mesmo tipo de material. Actualmente, no estoque, não existe material de tal modo! Mude alguns materiais da coluna correspondente!");
+	strcpy(sTypesAreNotMatched, "A otimização não foi realizada! Os materiais das tabelas Peças e Stock não correspondem! É possível cortar uma peça apenas do material com o mesmo nome em stock. Altere o nome dos materiais nas colunas correspondentes!");
 	strcpy(sUndo, "Desfazer");
 	strcpy(sUndoAccept, "Desfazer Aceitar");
 	strcpy(sUnits, "unidades");
@@ -694,4 +696,16 @@ void set_pt(void)
 	strcpy(sZip, "Código posta");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Defina a origem e a direção dos eixos de coordenadas.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Número de dígitos após o separador decimal");
+	strcpy(s_Percentages, "Porcentagens");
 }
+

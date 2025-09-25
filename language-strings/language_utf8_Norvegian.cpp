@@ -9,8 +9,10 @@
 void set_no(void)
 {
 	//Norvegian
-	//automatic translation
-	//2025.3.29.0
+	//did not check manually
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Areal");
+	strcpy(s_Mass, "Masse");
 	strcpy(s_Advanced, "Avansert");
 	strcpy(s_Relative_coordinates, "Relative koordinater");
 	strcpy(s_Absolute_coordinates, "Absolutte koordinater");
@@ -38,7 +40,7 @@ void set_no(void)
 	strcpy(s_Contact_us, "Kontakt oss");
 	strcpy(s_Column, "Kolonne");
 	strcpy(s_Comma, "Komma");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Kommategnet kan ikke samtidig være listeseparator og desimaltegnet!");
 	strcpy(s_Copy, "Kopiere");
 	strcpy(s_Copy_for_move, "Kopier for flytting");
 	strcpy(s_Cut_higher_level_strips_first, "Klipp strimler på høyere nivå først");
@@ -135,7 +137,7 @@ void set_no(void)
 
 	strcpy(s_Stock, "Lager");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Systeminnstilling");
 	strcpy(s_Tabular, "Tabell");
 	strcpy(s_Total, "Total");
 	strcpy(s_Total_size, "Total størrelse");
@@ -648,7 +650,7 @@ void set_no(void)
 	strcpy(sTwoPanels, "2 paneler");
 	strcpy(sType, "Type");
 	strcpy(sTypeofmaterialfromwhichtocut, "Type materiale som å kutte");
-	strcpy(sTypesAreNotMatched, "Optimalisering ble ikke utført! Deler vil bli kuttet fra ark fra Lagerbeholdning har samme type materiale. Foreløpig, i lager, er det ingen slike materiale! Endre noen materialer fra tilsvarende kolonnen!");
+	strcpy(sTypesAreNotMatched, "Optimaliseringen ble ikke utført! Materialer fra deler og lagertabellene samsvarer ikke! Man kan bare kutte en del fra materialet med samme navn på lager. Endre materialnavnet fra de tilsvarende kolonnene!");
 	strcpy(sUndo, "Angre");
 	strcpy(sUndoAccept, "Angre Godta");
 	strcpy(sUnits, "enheter");
@@ -694,4 +696,16 @@ void set_no(void)
 	strcpy(sZip, "Postnummer");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Angi opprinnelsen og retningen til koordinatene.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Antall sifre etter desimalskilletegnet");
+	strcpy(s_Percentages, "Prosentandeler");
 }
+

@@ -9,8 +9,10 @@
 void set_th(void)
 {
 	//Thai
-	//automatic translation
-	//2025.3.29.0
+	//did not check manually
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "พื้นที่");
+	strcpy(s_Mass, "มวล");
 	strcpy(s_Advanced, "ขั้นสูง");
 	strcpy(s_Relative_coordinates, "พิกัดสัมพันธ์");
 	strcpy(s_Absolute_coordinates, "พิกัดสัมบูรณ์");
@@ -38,7 +40,7 @@ void set_th(void)
 	strcpy(s_Contact_us, "ติดต่อเรา");
 	strcpy(s_Column, "คอลัมน์");
 	strcpy(s_Comma, "เครื่องหมายจุลภาค");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "เครื่องหมายจุลภาคไม่สามารถเป็นตัวคั่นรายการและตัวคั่นทศนิยมในเวลาเดียวกันได้!");
 	strcpy(s_Copy, "สำเนา");
 	strcpy(s_Copy_for_move, "คัดลอกเพื่อย้าย");
 	strcpy(s_Cut_higher_level_strips_first, "ตัดแถบระดับสูงก่อน");
@@ -135,7 +137,7 @@ void set_th(void)
 
 	strcpy(s_Stock, "คลังสินค้า");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "การตั้งค่าระบบ");
 	strcpy(s_Tabular, "ตาราง");
 	strcpy(s_Total, "รวม");
 	strcpy(s_Total_size, "ขนาดทั้งหมด");
@@ -648,7 +650,7 @@ void set_th(void)
 	strcpy(sTwoPanels, "2 แผง");
 	strcpy(sType, "ชนิด");
 	strcpy(sTypeofmaterialfromwhichtocut, "ประเภทของวัสดุที่ใช้ตัด");
-	strcpy(sTypesAreNotMatched, "ไม่ได้ทำการปรับให้เหมาะสม! ขณะนี้ไม่มีวัสดุดังกล่าวในสต็อก! ชิ้นสามารถตัดจากแผ่นวัสดุเดียวกัน เปลี่ยนวัสดุจากคอลัมน์ที่เกี่ยวข้อง!");
+	strcpy(sTypesAreNotMatched, "ไม่ได้ดำเนินการปรับแต่งให้เหมาะสม! ตารางวัสดุจากอะไหล่และสต๊อกไม่ตรงกัน! สามารถตัดชิ้นส่วนได้เฉพาะจากวัสดุที่มีชื่อเดียวกันในสต็อกเท่านั้น เปลี่ยนชื่อวัสดุจากคอลัมน์ที่เกี่ยวข้อง!");
 	strcpy(sUndo, "เลิกทำ");
 	strcpy(sUndoAccept, "เลิกทำยอมรับ");
 	strcpy(sUnits, "หน่วย");
@@ -694,4 +696,16 @@ void set_th(void)
 	strcpy(sZip, "รหัสไปรษณีย์");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "กำหนดจุดกำเนิดและทิศทางของแกนพิกัด");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "จำนวนหลักหลังตัวคั่นทศนิยม");
+	strcpy(s_Percentages, "เปอร์เซ็นต์");
 }
+

@@ -9,8 +9,10 @@
 void set_cz(void)
 {
 	//Czech
-	//translated by a customer
-	//2025.3.29.0
+	// translated by a customer
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Plocha");
+	strcpy(s_Mass, "Hmotnost");
 	strcpy(s_Advanced, "Moderní");
 	strcpy(s_Relative_coordinates, "Relativní souřadnice");
 	strcpy(s_Absolute_coordinates, "Absolutní souřadnice");
@@ -38,7 +40,7 @@ void set_cz(void)
 	strcpy(s_Contact_us, "Kontaktujte nás");
 	strcpy(s_Column, "Sloupec");
 	strcpy(s_Comma, "Čárka");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Symbol čárky nemůže být zároveň oddělovačem seznamu a oddělovačem desetinných míst!");
 	strcpy(s_Copy, "kopírovat");
 	strcpy(s_Copy_for_move, "Kopírovat pro přesun");
 	strcpy(s_Cut_higher_level_strips_first, "Nejprve odřízněte pásy vyšší úrovně");
@@ -135,7 +137,7 @@ void set_cz(void)
 
 	strcpy(s_Stock, "Inventář");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Nastavení systému");
 	strcpy(s_Tabular, "Tabelární");
 	strcpy(s_Total, "Celkový");
 	strcpy(s_Total_size, "Celková velikost");
@@ -648,7 +650,7 @@ void set_cz(void)
 	strcpy(sTwoPanels, "2 okna");
 	strcpy(sType, "typ");
 	strcpy(sTypeofmaterialfromwhichtocut, "Typ materiálu, ze kterého řezat");
-	strcpy(sTypesAreNotMatched, "Optimalizace se neprovádí! Kusy budou řezat z fólií z inventáře, které mají stejný typ materiálu. V současné době je ve skladu, není tento materiál! Změnit některé materiály z příslušného sloupce!");
+	strcpy(sTypesAreNotMatched, "Optimalizace nebyla provedena! Materiály z tabulek Díly a Polotovary se neshodují! Díl lze vyřezat pouze z materiálu se stejným názvem ve skladu. Změňte názvy materiálů z odpovídajících sloupců!");
 	strcpy(sUndo, "Vrátit");
 	strcpy(sUndoAccept, "Vrátit Přijmout");
 	strcpy(sUnits, "jednotky");
@@ -694,4 +696,16 @@ void set_cz(void)
 	strcpy(sZip, "PSČ");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Nastavte počátek a směr os souřadnic.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Počet číslic za oddělovačem desetinných míst");
+	strcpy(s_Percentages, "Procenta");
 }
+

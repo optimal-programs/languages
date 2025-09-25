@@ -9,8 +9,10 @@
 void set_et(void)
 {
 	//Estonian
-	//automatic translation
-	//2025.3.29.0
+	//did not check manually
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Pindala");
+	strcpy(s_Mass, "mass");
 	strcpy(s_Advanced, "Täpsemalt");
 	strcpy(s_Relative_coordinates, "Suhtelised koordinaadid");
 	strcpy(s_Absolute_coordinates, "Absoluutsed koordinaadid");
@@ -38,7 +40,7 @@ void set_et(void)
 	strcpy(s_Contact_us, "Võta meiega ühendust");
 	strcpy(s_Column, "Veerg");
 	strcpy(s_Comma, "Koma");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Koma ei saa samaaegselt olla nii loendi eraldajaks kui ka kümnendkoha eraldajaks!");
 	strcpy(s_Copy, "Kopeeri");
 	strcpy(s_Copy_for_move, "Kopeeri liikumiseks");
 	strcpy(s_Cut_higher_level_strips_first, "Kõigepealt lõigake kõrgema taseme ribad");
@@ -135,7 +137,7 @@ void set_et(void)
 
 	strcpy(s_Stock, "Ladu");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Süsteemi seadistus");
 	strcpy(s_Tabular, "Tabelikujuline");
 	strcpy(s_Total, "Kokku");
 	strcpy(s_Total_size, "Kogu suurus");
@@ -648,7 +650,7 @@ void set_et(void)
 	strcpy(sTwoPanels, "2 paneeli");
 	strcpy(sType, "tüüp");
 	strcpy(sTypeofmaterialfromwhichtocut, "Materjali liik, kust kärpida");
-	strcpy(sTypesAreNotMatched, "Optimeerimine ei tehtud! Tükke saab lõigatud lehed Inventory, millel on sama tüüpi materjali. Praegu aktsiaturul, ei ole sellist materjali! Muuta mõningaid materjale vastavas veerus!");
+	strcpy(sTypesAreNotMatched, "Optimeerimist ei teostatud! Detailide ja laoseisu tabelite materjalid ei ühti! Detailit saab lõigata ainult samanimelisest materjalist, mis on laos olemas. Muutke materjalide nimesid vastavates veergudes!");
 	strcpy(sUndo, "Undo");
 	strcpy(sUndoAccept, "Võta Nõustu");
 	strcpy(sUnits, "üksused");
@@ -694,4 +696,16 @@ void set_et(void)
 	strcpy(sZip, "Postiindeks");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Määrake koordinaatide telgede alguspunkt ja suund.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Numbrite arv pärast kümnendkoha eraldajat");
+	strcpy(s_Percentages, "Protsendid");
 }
+

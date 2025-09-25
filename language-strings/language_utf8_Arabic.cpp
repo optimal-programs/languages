@@ -9,8 +9,10 @@
 void set_ar(void)
 {
 	//Arabic
-	//translated by a customer
-	//2025.3.29.0
+	// translated by a customer
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "مساحة");
+	strcpy(s_Mass, "كتلة");
 	strcpy(s_Advanced, "متقدم");
 	strcpy(s_Relative_coordinates, "الإحداثيات النسبية");
 	strcpy(s_Absolute_coordinates, "الإحداثيات المطلقة");
@@ -38,7 +40,7 @@ void set_ar(void)
 	strcpy(s_Contact_us, "اتصل بنا");
 	strcpy(s_Column, "عمودي");
 	strcpy(s_Comma, "فاصلة");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "لا يمكن لرمز الفاصلة أن يكون فاصل القائمة والفاصل العشري في نفس الوقت!");
 	strcpy(s_Copy, "نسخ");
 	strcpy(s_Copy_for_move, "نسخ للتحرك");
 	strcpy(s_Cut_higher_level_strips_first, "قم بقطع شرائح ذات مستوى أعلى أولاً");
@@ -135,7 +137,7 @@ void set_ar(void)
 
 	strcpy(s_Stock, "مخزون");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "إعدادات النظام");
 	strcpy(s_Tabular, "مجدول");
 	strcpy(s_Total, "المجموع");
 	strcpy(s_Total_size, "الحجم الإجمالي");
@@ -648,7 +650,7 @@ void set_ar(void)
 	strcpy(sTwoPanels, "واجهة واحدة");
 	strcpy(sType, "نوع");
 	strcpy(sTypeofmaterialfromwhichtocut, "نوع المواد المراد قصها");
-	strcpy(sTypesAreNotMatched, "لم يتم تنفيذ الحساب! ، لا يوجد مثل هذه المواد في المخزون! يمكن قص القطع من ألواح من نفس المادة. قم بتغيير بعض المواد من عمود المادة!");
+	strcpy(sTypesAreNotMatched, "لم يتم إجراء التحسين! المواد من جدولي القطع والمخزون غير متطابقة! يمكن قص قطعة فقط من المادة التي تحمل الاسم نفسه في المخزون. غيّر اسم المواد من الأعمدة المقابلة!");
 	strcpy(sUndo, "تراجع");
 	strcpy(sUndoAccept, "تراجع عن القبول");
 	strcpy(sUnits, "الوحدات");
@@ -694,4 +696,16 @@ void set_ar(void)
 	strcpy(sZip, "الكود البريدى");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "عيّن أصل واتجاه محاور الإحداثيات.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "عدد الأرقام بعد الفاصل العشري");
+	strcpy(s_Percentages, "النسب المئوية");
 }
+

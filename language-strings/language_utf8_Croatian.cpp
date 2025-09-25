@@ -8,9 +8,11 @@
 //---------------------------------------------------------------------------
 void set_hr(void)
 {
-	//Croatian
-	//automatic translation
-	//2025.3.29.0
+	// Croatian
+	// did not check manually
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Površina");
+	strcpy(s_Mass, "Masa");
 	strcpy(s_Advanced, "Napredno");
 	strcpy(s_Relative_coordinates, "Relativne koordinate");
 	strcpy(s_Absolute_coordinates, "Apsolutne koordinate");
@@ -38,7 +40,7 @@ void set_hr(void)
 	strcpy(s_Contact_us, "Kontaktirajte nas");
 	strcpy(s_Column, "Stupac");
 	strcpy(s_Comma, "Zarez");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Zarez ne može istovremeno biti razdjelnik liste i decimalni razdjelnik!");
 	strcpy(s_Copy, "Kopirati");
 	strcpy(s_Copy_for_move, "Kopija za premještanje");
 	strcpy(s_Cut_higher_level_strips_first, "Prvo izrežite trake više razine");
@@ -135,7 +137,7 @@ void set_hr(void)
 
 	strcpy(s_Stock, "Inventar");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Postavke sustava");
 	strcpy(s_Tabular, "Tablični");
 	strcpy(s_Total, "Ukupno");
 	strcpy(s_Total_size, "Ukupna veličina");
@@ -648,7 +650,7 @@ void set_hr(void)
 	strcpy(sTwoPanels, "2 ploče");
 	strcpy(sType, "vrsta");
 	strcpy(sTypeofmaterialfromwhichtocut, "Vrsta materijala od kojih se smanjiti");
-	strcpy(sTypesAreNotMatched, "Optimizacija nije izvedena! Komadi će se smanjiti od listova iz inventure imaju istu vrstu materijala. Trenutno, u skladištu, ne postoji takav materijal! Promjena neke materijale iz odgovarajućeg stupca!");
+	strcpy(sTypesAreNotMatched, "Optimizacija nije izvršena! Materijali iz tablica Dijelovi i Zalihe se ne podudaraju! Dio se može izrezati samo iz materijala s istim nazivom na zalihi. Promijenite naziv materijala iz odgovarajućih stupaca!");
 	strcpy(sUndo, "Otkopčati");
 	strcpy(sUndoAccept, "Poništi Prihvati");
 	strcpy(sUnits, "jedinice");
@@ -694,4 +696,16 @@ void set_hr(void)
 	strcpy(sZip, "Poštanski broj");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Postavite ishodište i smjer koordinatnih osi.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Broj znamenki iza decimalnog razdjelnika");
+	strcpy(s_Percentages, "Postoci");
 }
+

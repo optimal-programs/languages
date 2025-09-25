@@ -9,8 +9,10 @@
 void set_ml(void)
 {
 	//Malaesian
-	//automatic translation
-	//2025.3.29.0
+	//did not check manually
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Luas");
+	strcpy(s_Mass, "Jisim");
 	strcpy(s_Advanced, "Maju");
 	strcpy(s_Relative_coordinates, "Koordinat relatif");
 	strcpy(s_Absolute_coordinates, "Koordinat mutlak");
@@ -38,7 +40,7 @@ void set_ml(void)
 	strcpy(s_Contact_us, "Hubungi Kami");
 	strcpy(s_Column, "Kolum");
 	strcpy(s_Comma, "Koma");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Simbol koma tidak boleh serentak menjadi pemisah senarai dan pemisah perpuluhan!");
 	strcpy(s_Copy, "Salinan");
 	strcpy(s_Copy_for_move, "Salin untuk bergerak");
 	strcpy(s_Cut_higher_level_strips_first, "Potong jalur peringkat lebih tinggi dahulu");
@@ -135,7 +137,7 @@ void set_ml(void)
 
 	strcpy(s_Stock, "Stok");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Tetapan sistem");
 	strcpy(s_Tabular, "Jadual");
 	strcpy(s_Total, "Jumlah");
 	strcpy(s_Total_size, "Jumlah saiz");
@@ -648,7 +650,7 @@ void set_ml(void)
 	strcpy(sTwoPanels, "2 panel");
 	strcpy(sType, "Taipkan");
 	strcpy(sTypeofmaterialfromwhichtocut, "Jenis bahan dari mana untuk dipotong");
-	strcpy(sTypesAreNotMatched, "Pengoptimuman tidak dilakukan! Pada masa ini, tidak ada bahan sedemikian dalam stok! Potongan boleh dipotong dari lembaran bahan yang sama. Tukar beberapa bahan dari lajur sepadan!");
+	strcpy(sTypesAreNotMatched, "Pengoptimuman tidak dilakukan! Bahan daripada jadual Bahagian dan Stok tidak sepadan! Seseorang boleh memotong Bahagian hanya dari bahan dengan nama yang sama dalam stok. Tukar nama bahan daripada lajur yang sepadan!");
 	strcpy(sUndo, "Undo");
 	strcpy(sUndoAccept, "Undo Terima");
 	strcpy(sUnits, "unit");
@@ -694,4 +696,16 @@ void set_ml(void)
 	strcpy(sZip, "Poskod");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Tetapkan asal dan arah paksi koordinat.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Bilangan digit selepas pemisah perpuluhan");
+	strcpy(s_Percentages, "Peratusan");
 }
+

@@ -10,7 +10,9 @@ void set_ro(void)
 {
 	//Romanian
 	//OK
-	//2025.3.29.0
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Aria");
+	strcpy(s_Mass, "Masă");
 	strcpy(s_Advanced, "Avansat");
 	strcpy(s_Relative_coordinates, "Coordonatele relative");
 	strcpy(s_Absolute_coordinates, "Coordonatele absolute");
@@ -648,7 +650,7 @@ void set_ro(void)
 	strcpy(sTwoPanels, "2 panouri");
 	strcpy(sType, "Tip");
 	strcpy(sTypeofmaterialfromwhichtocut, "Tipul de material din care se debitează");
-	strcpy(sTypesAreNotMatched, "Optimizarea nu a fost efectuată! Piesele vor fi tăiate din coli care au același tip de material. În prezent, în stoc, nu există nici un astfel de material! Modificați materiale din coloana corespunzătoare!");
+	strcpy(sTypesAreNotMatched, "Optimizarea nu a fost efectuată! Materialele din tabelele de piese și stoc nu se potrivesc! Se poate tăia o piesă doar din materialul cu același nume din stoc. Schimbați numele materialelor din coloanele corespunzătoare!");
 	strcpy(sUndo, "Anulează");
 	strcpy(sUndoAccept, "Anulare Acceptă");
 	strcpy(sUnits, "de unități");
@@ -694,4 +696,16 @@ void set_ro(void)
 	strcpy(sZip, "Cod poștal");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Setați originea și direcția axelor de coordonate.");
 	strcpy(s_license_agreement_text, "Programul este oferit așa cum este în versiunea de încercare care se poate descărca de pe site-ul nostru.\nVă rugăm încercați toate funcționalitățile înainte de achiziție!\nLicența, pentru versiunea curentă (achiziționată), este pe viață.\nProgramul se poate instala pe un număr de calculatoare egal cu numărul de licențe achiziționate.\nProgramul nu poate fi utilizat de mai multe persoane în același timp.\nDacă se dorește mutarea programului pe un alt calculator, atunci acesta trebuie șters de pe calculatorul curent.\nVersiunile viitoare nu sunt incluse in preț.\nNu se garantează funcționarea programului pe orice calculator. Vă rugăm să testați înainte de achiziție.\nNu se oferă servicii conexe (instalare, configurare, devirusare calculator etc).\nNu se garantează optimizare perfectă în toate cazurile.\nEventualele probleme se pot semnala doar prin email. Nu se oferă suport prin telefon, fax, teamviewer, la sediul clientului etc.");
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Numărul de cifre după separatorul zecimal");
+	strcpy(s_Percentages, "Procente");
 }
+

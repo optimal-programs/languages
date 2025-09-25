@@ -9,8 +9,10 @@
 void set_gr(void)
 {
 	//Greek
-	//translated by a customer
-	//2025.3.29.0
+	// translated by human, but needs revision
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Εμβαδόν");
+	strcpy(s_Mass, "Μάζα");
 	strcpy(s_Advanced, "Προχωρημένος");
 	strcpy(s_Relative_coordinates, "Σχετικές συντεταγμένες");
 	strcpy(s_Absolute_coordinates, "Απόλυτες συντεταγμένες");
@@ -38,7 +40,7 @@ void set_gr(void)
 	strcpy(s_Contact_us, "Επικοινωνήστε μαζί μας");
 	strcpy(s_Column, "Στήλη");
 	strcpy(s_Comma, "Κόμμα");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Το σύμβολο κόμμα δεν μπορεί να είναι ταυτόχρονα το διαχωριστικό λίστας και το διαχωριστικό δεκαδικών!");
 	strcpy(s_Copy, "αντίγραφο");
 	strcpy(s_Copy_for_move, "Αντιγραφή για μετακίνηση");
 	strcpy(s_Cut_higher_level_strips_first, "Κόψτε πρώτα λωρίδες υψηλότερου επιπέδου");
@@ -135,7 +137,7 @@ void set_gr(void)
 
 	strcpy(s_Stock, "ΑΠΟΘΕΜΑ");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Ρύθμιση συστήματος");
 	strcpy(s_Tabular, "Πινακοειδής");
 	strcpy(s_Total, "Σύνολο");
 	strcpy(s_Total_size, "Συνολικό μέγεθος");
@@ -648,7 +650,7 @@ void set_gr(void)
 	strcpy(sTwoPanels, "2 φύλλα");
 	strcpy(sType, "τύπος");
 	strcpy(sTypeofmaterialfromwhichtocut, "Είδος υλικού από το οποίο να κοπεί");
-	strcpy(sTypesAreNotMatched, "Η κοπή δεν γίνεται! Τα κομμάτια θα κοπούν από αποθηκευμένα φύλλα του ίδιου υλικού. Τώρα απόθεμα δεν υπάρχει με τέτοιο υλικό! Αλλάξτε κάποια υλικά από την αντίστοιχη στήλη!");
+	strcpy(sTypesAreNotMatched, "Η βελτιστοποίηση δεν πραγματοποιήθηκε! Τα υλικά από τους πίνακες Ανταλλακτικά και Απόθεμα δεν ταιριάζουν! Κάποιος μπορεί να κόψει ένα Εξάρτημα μόνο από το υλικό με το ίδιο όνομα που υπάρχει στο απόθεμα. Αλλάξτε το όνομα των υλικών από τις αντίστοιχες στήλες!");
 	strcpy(sUndo, "Αναίρεση");
 	strcpy(sUndoAccept, "Αποδοχή αναίρεσης");
 	strcpy(sUnits, "μονάδες");
@@ -694,5 +696,17 @@ void set_gr(void)
 	strcpy(sZip, "Ταχυδρομικός κώδικας");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Ορίστε την αρχή και την κατεύθυνση των αξόνων των συντεταγμένων.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Αριθμός ψηφίων μετά το δεκαδικό διαχωριστικό");
+	strcpy(s_Percentages, "Ποσοστά");
 }
+
 

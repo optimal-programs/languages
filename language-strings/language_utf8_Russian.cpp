@@ -9,8 +9,10 @@
 void set_ru(void)
 {
 	//Russian
-	//translated by a customer
-	//2025.3.29.0
+	// translated by a distributor; new versions needs human check
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Площадь");
+	strcpy(s_Mass, "Масса");
 	strcpy(s_Advanced, "Передовой");
 	strcpy(s_Relative_coordinates, "Относительные координаты");
 	strcpy(s_Absolute_coordinates, "Абсолютные координаты");
@@ -38,7 +40,7 @@ void set_ru(void)
 	strcpy(s_Contact_us, "Связаться с нами");
 	strcpy(s_Column, "Столбец");
 	strcpy(s_Comma, "Запятая");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Символ запятой не может быть одновременно разделителем списка и десятичным разделителем!");
 	strcpy(s_Copy, "Копировать");
 	strcpy(s_Copy_for_move, "Копировать для переезда");
 	strcpy(s_Cut_higher_level_strips_first, "Сначала отрежьте полосы более высокого уровня.");
@@ -135,7 +137,7 @@ void set_ru(void)
 
 	strcpy(s_Stock, "СКЛАД");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Системные настройки");
 	strcpy(s_Tabular, "Табличный");
 	strcpy(s_Total, "Всего");
 	strcpy(s_Total_size, "Общий размер");
@@ -648,7 +650,7 @@ void set_ru(void)
 	strcpy(sTwoPanels, "2 панели");
 	strcpy(sType, "тип");
 	strcpy(sTypeofmaterialfromwhichtocut, "Тип исходного материала для раскроя");
-	strcpy(sTypesAreNotMatched, "Раскрой не произведен!!! Детали Заказа кроятся из листов Склада имеющих тот-же тип материала. Сейчас на Складе  нет листов требуемого в Заказе типа! Проверьте и измените тип в колонке Материал!");
+	strcpy(sTypesAreNotMatched, "Оптимизация не выполнена! Материалы в таблицах «Детали» и «Склад» не совпадают! Деталь можно вырезать только из материала с таким же наименованием на складе. Измените наименование материалов в соответствующих столбцах!");
 	strcpy(sUndo, "Откат");
 	strcpy(sUndoAccept, "Отмена Решения");
 	strcpy(sUnits, "единиц");
@@ -694,4 +696,16 @@ void set_ru(void)
 	strcpy(sZip, "Почтовый индекс");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Установите начало координат и направление осей координат.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Количество цифр после десятичного разделителя");
+	strcpy(s_Percentages, "Проценты");
 }
+

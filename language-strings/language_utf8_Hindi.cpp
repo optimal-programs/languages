@@ -9,8 +9,10 @@
 void set_hindi(void)
 {
 	//Hindi
-	//automatic translation
-	//2025.3.29.0
+	// Google translate on 2020.08.29
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "क्षेत्रफल");
+	strcpy(s_Mass, "द्रव्यमान");
 	strcpy(s_Advanced, "विकसित");
 	strcpy(s_Relative_coordinates, "सापेक्ष निर्देशांक");
 	strcpy(s_Absolute_coordinates, "निरपेक्ष निर्देशांक");
@@ -38,7 +40,7 @@ void set_hindi(void)
 	strcpy(s_Contact_us, "संपर्क करें");
 	strcpy(s_Column, "स्तंभ");
 	strcpy(s_Comma, "अल्पविराम");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "अल्पविराम चिह्न एक साथ सूची विभाजक और दशमलव विभाजक नहीं हो सकता!");
 	strcpy(s_Copy, "प्रतिलिपि");
 	strcpy(s_Copy_for_move, "चाल के लिए कॉपी करें");
 	strcpy(s_Cut_higher_level_strips_first, "पहले उच्च-स्तर की पट्टियाँ काटें");
@@ -135,7 +137,7 @@ void set_hindi(void)
 
 	strcpy(s_Stock, "भण्डार");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "सिस्टम की सेटिंग्स");
 	strcpy(s_Tabular, "तालिका का");
 	strcpy(s_Total, "संपूर्ण");
 	strcpy(s_Total_size, "कुल आकार");
@@ -648,7 +650,7 @@ void set_hindi(void)
 	strcpy(sTwoPanels, "2 पैनल");
 	strcpy(sType, "प्रकार");
 	strcpy(sTypeofmaterialfromwhichtocut, "सामग्री का प्रकार जिसमें से कटौती करना है");
-	strcpy(sTypesAreNotMatched, "अनुकूलन प्रदर्शन नहीं किया गया था! वर्तमान में, स्टॉक में ऐसी कोई सामग्री नहीं है! उसी सामग्री की शीट से टुकड़ों को काटा जा सकता है। संबंधित कॉलम से कुछ सामग्री बदलें!");
+	strcpy(sTypesAreNotMatched, "अनुकूलन नहीं किया गया! पार्ट्स और स्टॉक तालिकाओं की सामग्री मेल नहीं खाती! कोई भी पार्ट केवल उसी सामग्री से काटा जा सकता है जिसका नाम स्टॉक में हो। संबंधित कॉलम से सामग्री का नाम बदलें!");
 	strcpy(sUndo, "पूर्ववत करें");
 	strcpy(sUndoAccept, "पूर्ववत स्वीकार करें");
 	strcpy(sUnits, "इकाइयों");
@@ -694,4 +696,16 @@ void set_hindi(void)
 	strcpy(sZip, "डाक कोड");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "निर्देशांकों के अक्षों की उत्पत्ति और दिशा निर्धारित करें।");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "दशमलव विभाजक के बाद अंकों की संख्या");
+	strcpy(s_Percentages, "प्रतिशत");
 }
+

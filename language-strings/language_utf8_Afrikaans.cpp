@@ -9,8 +9,10 @@
 void set_af(void)
 {
 	//Afrikaans
-	//checked by a customer
-	//2025.3.29.0
+	//did not checked manually
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Oppervlakte");
+	strcpy(s_Mass, "Massa");
 	strcpy(s_Advanced, "Gevorderd");
 	strcpy(s_Relative_coordinates, "Relatiewe koördinate");
 	strcpy(s_Absolute_coordinates, "Absolute koördinate");
@@ -38,7 +40,7 @@ void set_af(void)
 	strcpy(s_Contact_us, "Kontak Ons");
 	strcpy(s_Column, "Kolom");
 	strcpy(s_Comma, "Komma");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Die kommasimbool kan nie gelyktydig die lysskeier en die desimale skeier wees nie!");
 	strcpy(s_Copy, "Kopieer");
 	strcpy(s_Copy_for_move, "Kopieer vir skuif");
 	strcpy(s_Cut_higher_level_strips_first, "Sny eers hoër-vlak stroke");
@@ -135,7 +137,7 @@ void set_af(void)
 
 	strcpy(s_Stock, "Voorraad");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Stelselinstelling");
 	strcpy(s_Tabular, "Tabel");
 	strcpy(s_Total, "Totaal");
 	strcpy(s_Total_size, "Totale grootte");
@@ -648,7 +650,7 @@ void set_af(void)
 	strcpy(sTwoPanels, "2 panele");
 	strcpy(sType, "tipe");
 	strcpy(sTypeofmaterialfromwhichtocut, "Tipe materiaal uit te sny");
-	strcpy(sTypesAreNotMatched, "Die optimalisering is nie uitgevoer nie.! Die stukke sal uitgeroei word uit die velle uit voorraad met die dieselfde tipe materiaal. Tans, in die voorraad, daar is geen sodanige materiaal! Verander sommige materiaal uit die ooreenstemmende kolom!");
+	strcpy(sTypesAreNotMatched, "Die optimalisering is nie uitgevoer nie! Materiaal van Onderdele en Voorraadtabelle stem nie ooreen nie! 'n Onderdeel kan slegs gesny word uit die materiaal met dieselfde naam in voorraad. Verander die materiaal se naam van die ooreenstemmende kolomme!");
 	strcpy(sUndo, "Maak ongedaan");
 	strcpy(sUndoAccept, "Herroep Aanvaar");
 	strcpy(sUnits, "eenhede");
@@ -694,4 +696,16 @@ void set_af(void)
 	strcpy(sZip, "Poskode");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Stel die oorsprong en die rigting van die asse van koördinate.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Aantal syfers na die desimale skeiding");
+	strcpy(s_Percentages, "Persentasies");
 }
+

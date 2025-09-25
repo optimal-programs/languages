@@ -9,8 +9,10 @@
 void set_pl(void)
 {
 	//Polish
-	//translated by a customer
-	//2025.3.29.0
+	//// translated by a customer on 2020.08.30
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Pole");
+	strcpy(s_Mass, "Masa");
 	strcpy(s_Advanced, "Zaawansowany");
 	strcpy(s_Relative_coordinates, "Współrzędne względne");
 	strcpy(s_Absolute_coordinates, "Współrzędne bezwzględne");
@@ -38,7 +40,7 @@ void set_pl(void)
 	strcpy(s_Contact_us, "Skontaktuj się z nami");
 	strcpy(s_Column, "Kolumna");
 	strcpy(s_Comma, "Przecinek");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Symbol przecinka nie może być jednocześnie separatorem listy i separatorem dziesiętnym!");
 	strcpy(s_Copy, "Kopiuj");
 	strcpy(s_Copy_for_move, "Skopiuj do przeniesienia");
 	strcpy(s_Cut_higher_level_strips_first, "Najpierw odetnij paski wyższego poziomu");
@@ -135,7 +137,7 @@ void set_pl(void)
 
 	strcpy(s_Stock, "Magazyn");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Ustawienia systemowe");
 	strcpy(s_Tabular, "Tabelaryczny");
 	strcpy(s_Total, "Całkowity");
 	strcpy(s_Total_size, "Całkowity rozmiar");
@@ -648,7 +650,7 @@ void set_pl(void)
 	strcpy(sTwoPanels, "2 panele");
 	strcpy(sType, "Typ");
 	strcpy(sTypeofmaterialfromwhichtocut, "Rodzaj materiału, z którego mam wyciąć.");
-	strcpy(sTypesAreNotMatched, "Optymalizacja nie została wykonana! Obecnie nie ma takiego materiału na magazynie! Kawałki można wycinać z arkuszy tego samego materiału. Zmień niektóre materiały z odpowiedniej kolumny!");
+	strcpy(sTypesAreNotMatched, "Optymalizacja nie została przeprowadzona! Materiały z tabel części i zapasów nie pasują do siebie! Można wyciąć część tylko z materiału o tej samej nazwie w magazynie. Zmień nazwy materiałów w odpowiednich kolumnach!");
 	strcpy(sUndo, "Anuluj");
 	strcpy(sUndoAccept, "Cofnij Akceptuj");
 	strcpy(sUnits, "szt.");
@@ -694,4 +696,16 @@ void set_pl(void)
 	strcpy(sZip, "Kod pocztowy");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Ustaw początek i kierunek osi współrzędnych.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Liczba cyfr po separatorze dziesiętnym");
+	strcpy(s_Percentages, "Procenty");
 }
+

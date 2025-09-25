@@ -9,8 +9,10 @@
 void set_vn(void)
 {
 	//Vietnamese
-	//translated by a customer
-	//2025.3.29.0
+	// translated by a distributor
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Diện tích");
+	strcpy(s_Mass, "Khối lượng");
 	strcpy(s_Advanced, "Trình độ cao");
 	strcpy(s_Relative_coordinates, "Tọa độ tương đối");
 	strcpy(s_Absolute_coordinates, "Tọa độ tuyệt đối");
@@ -38,7 +40,7 @@ void set_vn(void)
 	strcpy(s_Contact_us, "Liên hệ chúng tôi");
 	strcpy(s_Column, "Cột");
 	strcpy(s_Comma, "dấu phẩy");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Dấu phẩy không thể vừa là dấu phân cách danh sách vừa là dấu phân cách thập phân!");
 	strcpy(s_Copy, "Sao chép");
 	strcpy(s_Copy_for_move, "Sao chép để di chuyển");
 	strcpy(s_Cut_higher_level_strips_first, "Cắt các dải ở mức cao hơn trước");
@@ -135,7 +137,7 @@ void set_vn(void)
 
 	strcpy(s_Stock, "TỒN KHO");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Cài đặt hệ thống");
 	strcpy(s_Tabular, "Bảng");
 	strcpy(s_Total, "Toàn bộ");
 	strcpy(s_Total_size, "Tổng kích thước");
@@ -648,7 +650,7 @@ void set_vn(void)
 	strcpy(sTwoPanels, "2 tấm");
 	strcpy(sType, "Kiểu");
 	strcpy(sTypeofmaterialfromwhichtocut, "Loại vật liệu để cắt");
-	strcpy(sTypesAreNotMatched, "");
+	strcpy(sTypesAreNotMatched, "Việc tối ưu hóa không được thực hiện! Vật liệu từ bảng Linh kiện và Bảng Kho không khớp nhau! Chỉ có thể cắt Linh kiện từ vật liệu có cùng tên trong kho. Hãy đổi tên vật liệu từ các cột tương ứng!");
 	strcpy(sUndo, "Hoàn tác");
 	strcpy(sUndoAccept, "Chấp nhận hoàn tác");
 	strcpy(sUnits, "các đơn vị");
@@ -694,4 +696,16 @@ void set_vn(void)
 	strcpy(sZip, "Mã bưu điện");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Đặt gốc tọa độ và hướng của các trục tọa độ.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Số chữ số sau dấu phân cách thập phân");
+	strcpy(s_Percentages, "Phần trăm");
 }
+

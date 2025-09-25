@@ -9,8 +9,10 @@
 void set_fr(void)
 {
 	//Francais
-	//checked by a customer
-	//2025.3.29.0
+	// needs human check
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Aire");
+	strcpy(s_Mass, "Masse");
 	strcpy(s_Advanced, "Avancée");
 	strcpy(s_Relative_coordinates, "Coordonnées relatives");
 	strcpy(s_Absolute_coordinates, "Coordonnées absolues");
@@ -38,7 +40,7 @@ void set_fr(void)
 	strcpy(s_Contact_us, "Contactez-nous");
 	strcpy(s_Column, "Colonne");
 	strcpy(s_Comma, "Virgule");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Le symbole virgule ne peut pas être simultanément le séparateur de liste et le séparateur décimal !");
 	strcpy(s_Copy, "Copie");
 	strcpy(s_Copy_for_move, "Copier pour déplacer");
 	strcpy(s_Cut_higher_level_strips_first, "Coupez d'abord les bandes de niveau supérieur");
@@ -135,7 +137,7 @@ void set_fr(void)
 
 	strcpy(s_Stock, "Stocker");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Paramétrage du système");
 	strcpy(s_Tabular, "Tabulaire");
 	strcpy(s_Total, "Totale");
 	strcpy(s_Total_size, "Taille totale");
@@ -648,7 +650,7 @@ void set_fr(void)
 	strcpy(sTwoPanels, "2 panneaux");
 	strcpy(sType, "type");
 	strcpy(sTypeofmaterialfromwhichtocut, "Type de matériau à partir duquel couper");
-	strcpy(sTypesAreNotMatched, "L'optimisation n'a pas été effectuée! Actuellement, il n'y a pas de matériel de ce type en stock! Les pièces peuvent être découpées dans des feuilles du même matériau. Changez certains matériaux de la colonne correspondante!");
+	strcpy(sTypesAreNotMatched, "L'optimisation n'a pas été effectuée ! Les matériaux des tables Pièces et Stock ne correspondent pas ! Une pièce ne peut être découpée qu'à partir du matériau du même nom en stock. Modifiez le nom du matériau dans les colonnes correspondantes !");
 	strcpy(sUndo, "Annuler");
 	strcpy(sUndoAccept, "Annuler Accepter");
 	strcpy(sUnits, "Unités");
@@ -694,4 +696,16 @@ void set_fr(void)
 	strcpy(sZip, "Code posta");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Définissez l'origine et la direction des axes de coordonnées.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Nombre de chiffres après le séparateur décimal");
+	strcpy(s_Percentages, "Pourcentages");
 }
+

@@ -9,8 +9,10 @@
 void set_sk(void)
 {
 	//Slovak
-	//automatic translation
-	//2025.3.29.0
+	//did not check manually
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Plocha");
+	strcpy(s_Mass, "Hmotnosť");
 	strcpy(s_Advanced, "Pokročilé");
 	strcpy(s_Relative_coordinates, "Relatívne súradnice");
 	strcpy(s_Absolute_coordinates, "Absolútne súradnice");
@@ -38,7 +40,7 @@ void set_sk(void)
 	strcpy(s_Contact_us, "Kontaktuj nás");
 	strcpy(s_Column, "Stĺpec");
 	strcpy(s_Comma, "Čiarka");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Čiarka nemôže byť súčasne oddeľovačom zoznamu a desatinným oddeľovačom!");
 	strcpy(s_Copy, "Kópia");
 	strcpy(s_Copy_for_move, "Kopírovať na presun");
 	strcpy(s_Cut_higher_level_strips_first, "Najprv odrežte pásy vyššej úrovne");
@@ -135,7 +137,7 @@ void set_sk(void)
 
 	strcpy(s_Stock, "Inventár");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Nastavenie systému");
 	strcpy(s_Tabular, "Tabuľkový");
 	strcpy(s_Total, "Celkom");
 	strcpy(s_Total_size, "Celková velkosť");
@@ -648,7 +650,7 @@ void set_sk(void)
 	strcpy(sTwoPanels, "2 panely");
 	strcpy(sType, "typ");
 	strcpy(sTypeofmaterialfromwhichtocut, "Typ materiálu, z ktorého sa znížiť");
-	strcpy(sTypesAreNotMatched, "Optimalizácia sa nevykonáva! Kusy budú rezať z fólií z inventára, ktoré majú rovnaký typ materiálu. V súčasnej dobe je v sklade, nie je tento materiál! Zmeniť niektoré materiály z príslušného stĺpca!");
+	strcpy(sTypesAreNotMatched, "Optimalizácia sa nevykonala! Materiály z tabuliek Diely a Sklad sa nezhodujú! Dielec je možné vyrezať iba z materiálu s rovnakým názvom v sklade. Zmeňte názvy materiálov z príslušných stĺpcov!");
 	strcpy(sUndo, "Zrušiť");
 	strcpy(sUndoAccept, "Vrátiť Prijať");
 	strcpy(sUnits, "jednotky");
@@ -694,4 +696,16 @@ void set_sk(void)
 	strcpy(sZip, "PSČ");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Nastavte počiatok a smer osí súradníc.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Počet číslic za oddeľovačom desatinných miest");
+	strcpy(s_Percentages, "Percentá");
 }
+

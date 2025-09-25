@@ -9,8 +9,10 @@
 void set_bg(void)
 {
 	//Bulgarian
-	//translated by a customer
-	//2025.3.29.0
+	// translated by a customer
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Площ");
+	strcpy(s_Mass, "Маса");
 	strcpy(s_Advanced, "Разширено");
 	strcpy(s_Relative_coordinates, "Относителни координати");
 	strcpy(s_Absolute_coordinates, "Абсолютни координати");
@@ -38,7 +40,7 @@ void set_bg(void)
 	strcpy(s_Contact_us, "Свържете се с нас");
 	strcpy(s_Column, "Колона");
 	strcpy(s_Comma, "Запетая");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Символът запетая не може едновременно да бъде разделител за списък и десетичен разделител!");
 	strcpy(s_Copy, "Копирай");
 	strcpy(s_Copy_for_move, "Копирай за преместване");
 	strcpy(s_Cut_higher_level_strips_first, "Първо изрежете ленти с по-високо ниво");
@@ -135,7 +137,7 @@ void set_bg(void)
 
 	strcpy(s_Stock, "НАЛИЧНОСТ");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Системна настройка");
 	strcpy(s_Tabular, "Табличен");
 	strcpy(s_Total, "Обща сума");
 	strcpy(s_Total_size, "Общият размер");
@@ -648,7 +650,7 @@ void set_bg(void)
 	strcpy(sTwoPanels, "2 панела");
 	strcpy(sType, "тип");
 	strcpy(sTypeofmaterialfromwhichtocut, "Вид на материала, от който да се изрежат");
-	strcpy(sTypesAreNotMatched, "Рязането не бе осъществено! Парчетата ще бъдат отрязани от листа от инвентара от един и същ тип материал. В момента, в наличност, няма такъв материал! Променете някои материали от съответната колона!");
+	strcpy(sTypesAreNotMatched, "Оптимизацията не е извършена! Материалите от таблиците „Части“ и „Наличност“ не съвпадат! Може да се изреже детайл само от материал със същото име на склад. Променете името на материалите от съответните колони!");
 	strcpy(sUndo, "Върни обратно");
 	strcpy(sUndoAccept, "Отмени приемането");
 	strcpy(sUnits, "единици");
@@ -694,4 +696,15 @@ void set_bg(void)
 	strcpy(sZip, "Пощенски код");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Задайте началото и посоката на координатните оси.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Брой цифри след десетичния разделител");
+	strcpy(s_Percentages, "Проценти");
 }

@@ -9,8 +9,10 @@
 void set_fs(void)
 {
 	//Persian/Farsi
-	//automatic translation
-	//2025.3.29.0
+	// automatic translation
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "مساحت");
+	strcpy(s_Mass, "جرم");
 	strcpy(s_Advanced, "پیشرفته");
 	strcpy(s_Relative_coordinates, "مختصات نسبی");
 	strcpy(s_Absolute_coordinates, "مختصات مطلق");
@@ -38,7 +40,7 @@ void set_fs(void)
 	strcpy(s_Contact_us, "با ما تماس بگیرید");
 	strcpy(s_Column, "ستون");
 	strcpy(s_Comma, "کاما");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "نماد کاما نمی‌تواند همزمان جداکننده لیست و جداکننده اعشاری باشد!");
 	strcpy(s_Copy, "کپی 🀄");
 	strcpy(s_Copy_for_move, "برای جابجایی کپی کنید");
 	strcpy(s_Cut_higher_level_strips_first, "ابتدا نوارهای سطح بالاتر را برش دهید");
@@ -135,7 +137,7 @@ void set_fs(void)
 	strcpy(s_Starting_direction, "جهت شروع");
 	strcpy(s_Stock, "موجودی");
 	strcpy(s_Stop, "متوقف کردن");
-
+	strcpy(s_System_setting, "تنظیمات سیستم");
 	strcpy(s_Tabular, "جدولی");
 	strcpy(s_Total, "جمع");
 	strcpy(s_Total_size, "اندازه کل");
@@ -694,4 +696,16 @@ void set_fs(void)
 	strcpy(sZip, "کد پستی");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "مبدا و جهت محورهای مختصات را تنظیم کنید.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "تعداد ارقام بعد از جداکننده اعشاری");
+	strcpy(s_Percentages, "درصدها");
 }
+

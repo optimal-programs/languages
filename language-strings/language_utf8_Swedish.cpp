@@ -8,9 +8,11 @@
 //---------------------------------------------------------------------------
 void set_sv(void)
 {
-	//Swedish
-	//automatic translation
-	//2025.3.29.0
+	//swedish
+	//did not check manually
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Area");
+	strcpy(s_Mass, "Massa");
 	strcpy(s_Advanced, "Avancerad");
 	strcpy(s_Relative_coordinates, "Relativa koordinater");
 	strcpy(s_Absolute_coordinates, "Absoluta koordinater");
@@ -38,7 +40,7 @@ void set_sv(void)
 	strcpy(s_Contact_us, "Kontakta oss");
 	strcpy(s_Column, "Kolumn");
 	strcpy(s_Comma, "Kommatecken");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Kommatecknet kan inte samtidigt vara listavgränsare och decimalavgränsare!");
 	strcpy(s_Copy, "Kopiera");
 	strcpy(s_Copy_for_move, "Kopiera för flytt");
 	strcpy(s_Cut_higher_level_strips_first, "Klipp först remsor på högre nivå");
@@ -135,7 +137,7 @@ void set_sv(void)
 
 	strcpy(s_Stock, "Varumagasin");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Systeminställning");
 	strcpy(s_Tabular, "Tabellform");
 	strcpy(s_Total, "Total");
 	strcpy(s_Total_size, "Total storlek");
@@ -648,7 +650,7 @@ void set_sv(void)
 	strcpy(sTwoPanels, "2 paneler");
 	strcpy(sType, "Typ");
 	strcpy(sTypeofmaterialfromwhichtocut, "Typ av material från att skära");
-	strcpy(sTypesAreNotMatched, "Optimeringen utfördes inte! Bitar skärs från arken från Inventory med samma typ av material. För närvarande, i beståndet finns det ingen sådant material! Ändra vissa material från motsvarande kolumn!");
+	strcpy(sTypesAreNotMatched, "Optimeringen utfördes inte! Material från tabellerna Artikel och Lager överensstämmer inte! Man kan bara skära en artikel från materialet med samma namn i lager. Ändra materialets namn från motsvarande kolumner!");
 	strcpy(sUndo, "Ångra");
 	strcpy(sUndoAccept, "Ångra Acceptera");
 	strcpy(sUnits, "enheter");
@@ -694,4 +696,16 @@ void set_sv(void)
 	strcpy(sZip, "Postnummer");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Ställ in origo och riktning för koordinataxlarna.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Antal siffror efter decimalavgränsaren");
+	strcpy(s_Percentages, "Procentandelar");
 }
+

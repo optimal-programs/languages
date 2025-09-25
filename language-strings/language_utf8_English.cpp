@@ -9,8 +9,10 @@
 void set_en(void)
 {
 	//English 
-	//checked manually
-	//2025.4.19.0
+	// checked manually
+	//2025.9.25.0
+	strcpy(s_Area, "Area");
+	strcpy(s_Mass, "Mass");
 	strcpy(s_Advanced, "Advanced");
 	strcpy(s_Relative_coordinates, "Relative coordinates");
 	strcpy(s_Absolute_coordinates, "Absolute coordinates");
@@ -648,7 +650,7 @@ void set_en(void)
 	strcpy(sTwoPanels, "Two panels");
 	strcpy(sType, "Type");
 	strcpy(sTypeofmaterialfromwhichtocut, "Type of material from which to cut");
-	strcpy(sTypesAreNotMatched, "The optimization was not performed! Currently, there is no such material in the stock! Pieces can be cut from sheets of the same material. Change some materials from the corresponding column!");
+	strcpy(sTypesAreNotMatched, "The optimization was not performed! Materials from Parts and Stock tables do not match! One can cut a Part only from the material with the same name in stock. Change the materials' name from the corresponding columns!");
 	strcpy(sUndo, "Undo");
 	strcpy(sUndoAccept, "Undo Accept");
 	strcpy(sUnits, "units");
@@ -706,3 +708,5 @@ void set_en(void)
 	strcpy(s_Number_of_digits_after_the_decimal_separator, "Number of digits after the decimal separator");
 	strcpy(s_Percentages, "Percentages");
 }
+
+

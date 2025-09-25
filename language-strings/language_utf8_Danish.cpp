@@ -9,8 +9,10 @@
 void set_da(void)
 {
 	//Danish
-	//automatic translation
-	//2025.3.29.0
+	//translated with the latest version of google translate (2020.07.03)
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Areal");
+	strcpy(s_Mass, "Masse");
 	strcpy(s_Advanced, "Fremskreden");
 	strcpy(s_Relative_coordinates, "Relative koordinater");
 	strcpy(s_Absolute_coordinates, "Absolutte koordinater");
@@ -38,7 +40,7 @@ void set_da(void)
 	strcpy(s_Contact_us, "Kontakt os");
 	strcpy(s_Column, "Kolonne");
 	strcpy(s_Comma, "Komma");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Kommategnet kan ikke samtidig være listeseparator og decimalseparator!");
 	strcpy(s_Copy, "Kopi");
 	strcpy(s_Copy_for_move, "Kopiér til flytning");
 	strcpy(s_Cut_higher_level_strips_first, "Skær strimler på højere niveau først");
@@ -135,7 +137,7 @@ void set_da(void)
 
 	strcpy(s_Stock, "Lager");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Systemindstilling");
 	strcpy(s_Tabular, "Tabel");
 	strcpy(s_Total, "Total");
 	strcpy(s_Total_size, "Total størrelse");
@@ -648,7 +650,7 @@ void set_da(void)
 	strcpy(sTwoPanels, "2 paneler");
 	strcpy(sType, "Type");
 	strcpy(sTypeofmaterialfromwhichtocut, "Type materiale, hvorfra man skal skære");
-	strcpy(sTypesAreNotMatched, "Optimeringen blev ikke udført! Der er i øjeblikket ikke noget sådant materiale på lageret! Stykker kan skæres fra lag af samme materiale. Skift nogle materialer fra den tilsvarende kolonne!");
+	strcpy(sTypesAreNotMatched, "Optimeringen blev ikke udført! Materialerne fra dele- og lagertabellerne stemmer ikke overens! Man kan kun skære en del fra materialet med samme navn på lager. Skift materialenavnet fra de tilsvarende kolonner!");
 	strcpy(sUndo, "Fortryd");
 	strcpy(sUndoAccept, "Fortryd accept");
 	strcpy(sUnits, "enheder");
@@ -694,4 +696,16 @@ void set_da(void)
 	strcpy(sZip, "Postnummer");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Indstil oprindelsen og retningen for koordinatakserne.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Antal cifre efter decimaladskilleren");
+	strcpy(s_Percentages, "Procentsatser");
 }
+

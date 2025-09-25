@@ -8,9 +8,11 @@
 //---------------------------------------------------------------------------
 void set_sl(void)
 {
-	//Slovenian
-	//translated by a customer
-	//2025.3.29.0
+	// Slovenian
+	//checked by a customer on 2022.11.14
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Površina");
+	strcpy(s_Mass, "Masa");
 	strcpy(s_Advanced, "Napredno");
 	strcpy(s_Relative_coordinates, "Relativne koordinate");
 	strcpy(s_Absolute_coordinates, "Absolutne koordinate");
@@ -38,20 +40,20 @@ void set_sl(void)
 	strcpy(s_Contact_us, "Kontaktiraj nas");
 	strcpy(s_Copy, "Kopirati");
 	strcpy(s_Comma, "Vejica");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Vejica ne more biti hkrati ločilo seznama in decimalno ločilo!");
 	strcpy(s_Copy_for_move, "Kopija za premik");
 	strcpy(s_Cut_index, "Pokaži indeks rez");
 	strcpy(s_Cut_higher_level_strips_first, "Najprej odrežite trakove višje ravni");
 	strcpy(s_Cuts_may_overlap, "Rezi se lahko pokrivajo");
+
 	strcpy(s_The_data_have_been_changed_Do_you_want_to_save_them_to_a_file, "Podatki so bili spremenjeni. Ali jih želite shraniti v datoteko?");
-	strcpy(s_Delete_fiber, "Izbrišite vlakno");
 	strcpy(s_Decimal_separator, "Decimalno ločilo");
 	strcpy(s_Restore_default_settings, "Obnovi privzete nastavitve");
+	strcpy(s_Delete_fiber, "Izbrišite vlakno");
 	strcpy(s_Descending, "Padajoče");
 	strcpy(s_Discard_changes, "Zavrzi spremembe");
-	strcpy(s_Delete_all_data, "Želite izbrisati vse podatke?");
 
-	strcpy(s_Do_you_want_to_delete_the_picture, "Ali želite izbrisati sliko?");
+	strcpy(s_Delete_all_data, "Želite izbrisati vse podatke?");
 	strcpy(s_Dot, "Pika");
 	strcpy(s_Do_you_want_to_delete_the_product, "Ali želite izbrisati izdelek?");
 	strcpy(s_Do_you_want_to_delete_the_product, "Czy chcesz usunąć produkt?");
@@ -135,7 +137,7 @@ void set_sl(void)
 	strcpy(s_Starting_direction, "Začetna smer");
 	strcpy(s_Stock, "Zaloga");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Sistemska nastavitev");
 	strcpy(s_Tabular, "Tablično");
 	strcpy(s_Total, "Skupaj");
 	strcpy(s_Total_size, "Skupna velikost");
@@ -648,7 +650,7 @@ void set_sl(void)
 	strcpy(sTwoPanels, "Dva delovna panela");
 	strcpy(sType, "Tip");
 	strcpy(sTypeofmaterialfromwhichtocut, "Tip materiala iz katerega režemo");
-	strcpy(sTypesAreNotMatched, "Optimizacija ni bila izvedena! Trenutno tega materiala ni na zalogi! Kose lahko izrežete iz listov istega materiala. Spremenite nekaj materialov iz ustreznega stolpca!");
+	strcpy(sTypesAreNotMatched, "Optimizacija ni bila izvedena! Materiali iz tabel Deli in Zaloge se ne ujemajo! Del je mogoče izrezati samo iz materiala z enakim imenom na zalogi. Spremenite ime materialov iz ustreznih stolpcev!");
 	strcpy(sUndo, "Razveljavi");
 	strcpy(sUndoAccept, "Razveljavi Sprejmi");
 	strcpy(sUnits, "Enote");
@@ -694,4 +696,16 @@ void set_sl(void)
 	strcpy(sZip, "Poštna številka");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Nastavite izhodišče in smer koordinatnih osi.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Število števk za decimalnim ločilom");
+	strcpy(s_Percentages, "Odstotki");
 }
+

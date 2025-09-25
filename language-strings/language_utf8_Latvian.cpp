@@ -6,12 +6,13 @@
 //---------------------------------------------------------------------------
 #include "language_string_id.h"
 //---------------------------------------------------------------------------
-
 void set_lv(void)
 {
-	//Latvian
-	//automatic translation
-	//2025.3.29.0
+	//latvian
+	//did not check manually
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "laukums");
+	strcpy(s_Mass, "masa");
 	strcpy(s_Advanced, "Papildu");
 	strcpy(s_Relative_coordinates, "Relatīvās koordinātas");
 	strcpy(s_Absolute_coordinates, "Absolūtās koordinātas");
@@ -39,7 +40,7 @@ void set_lv(void)
 	strcpy(s_Contact_us, "Sazinies ar mums");
 	strcpy(s_Column, "Kolonna");
 	strcpy(s_Comma, "Komats");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Komata simbols nevar vienlaikus būt gan saraksta atdalītājs, gan decimālskaitļu atdalītājs!");
 	strcpy(s_Copy, "Kopēt");
 	strcpy(s_Copy_for_move, "Kopēt pārvietošanai");
 	strcpy(s_Cut_higher_level_strips_first, "Vispirms izgrieziet augstāka līmeņa sloksnes");
@@ -136,7 +137,7 @@ void set_lv(void)
 
 	strcpy(s_Stock, "Uzkrajums");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Sistēmas iestatījums");
 	strcpy(s_Tabular, "Tabulveida");
 	strcpy(s_Total, "Kopā");
 	strcpy(s_Total_size, "Kopējais lielums");
@@ -649,7 +650,7 @@ void set_lv(void)
 	strcpy(sTwoPanels, "2 paneļi");
 	strcpy(sType, "tips");
 	strcpy(sTypeofmaterialfromwhichtocut, "Materiāla veids, no kura griezt");
-	strcpy(sTypesAreNotMatched, "Griešana netika veikta!!! Gabali tiks griezti no inventāra loksnēm, kuām ir tāda paša veida materiālsa. Pašlaik uzkrājumā nav tāda materiāla! Izmainat dažus materiālus no atbilstošās ailes!");
+	strcpy(sTypesAreNotMatched, "Optimizācija netika veikta! Materiāli no detaļu un noliktavas tabulām nesakrīt! Detaļu var izgriezt tikai no materiāla ar tādu pašu nosaukumu noliktavā. Mainiet materiāla nosaukumu atbilstošajās kolonnās!");
 	strcpy(sUndo, "Atsaukt");
 	strcpy(sUndoAccept, "Atsaukt Apstiprinājumu");
 	strcpy(sUnits, "vienības");
@@ -695,4 +696,16 @@ void set_lv(void)
 	strcpy(sZip, "Pasta indekss");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Iestatiet koordinātu asu sākumpunktu un virzienu.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Ciparu skaits aiz decimāldaļas atdalītāja");
+	strcpy(s_Percentages, "Procenti");
 }
+

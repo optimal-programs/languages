@@ -9,8 +9,10 @@
 void set_nl(void)
 {
 	//Dutch
-	//translated by a customer
-	//2025.3.29.0
+	//translated by a customer on 2022.12.22
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Oppervlakte");
+	strcpy(s_Mass, "Massa");
 	strcpy(s_Advanced, "Geavanceerd");
 	strcpy(s_Relative_coordinates, "Relatieve coördinaten");
 	strcpy(s_Absolute_coordinates, "Absolute coördinaten");
@@ -38,7 +40,7 @@ void set_nl(void)
 	strcpy(s_Contact_us, "Neem contact met ons op");
 	strcpy(s_Column, "Kolom");
 	strcpy(s_Comma, "Komma");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Het kommasymbool kan niet tegelijkertijd lijstscheidingsteken en decimaalscheidingsteken zijn!");
 	strcpy(s_Copy, "Kopiëren");
 	strcpy(s_Copy_for_move, "Kopieer om te verplaatsen");
 	strcpy(s_Cut_higher_level_strips_first, "Snijd eerst de stroken van het hogere niveau");
@@ -135,7 +137,7 @@ void set_nl(void)
 	strcpy(s_Starting_direction, "Startrichting");
 	strcpy(s_Stock, "VOORRAAD");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Systeeminstelling");
 	strcpy(s_Tabular, "Tabelvorm");
 	strcpy(s_Total, "Totaal");
 	strcpy(s_Total_size, "Totaal afmeting");
@@ -648,7 +650,7 @@ void set_nl(void)
 	strcpy(sTwoPanels, "2 panelen");
 	strcpy(sType, "Soort");
 	strcpy(sTypeofmaterialfromwhichtocut, "Soort materiaal om te snijden");
-	strcpy(sTypesAreNotMatched, "De optimalisatie is niet uitgevoerd! Momenteel is dit materiaal niet op voorraad! Onderdelen kunnen vaak uit soortgelijk materiaal worden gesneden. Wijzig enkele materialen in de materiaal kolom!");
+	strcpy(sTypesAreNotMatched, "De optimalisatie is niet uitgevoerd! De materialen uit de onderdelen- en voorraadtabellen komen niet overeen! Een onderdeel kan alleen worden gesneden uit het materiaal met dezelfde naam dat op voorraad is. Wijzig de materiaalnaam in de overeenkomstige kolommen!");
 	strcpy(sUndo, "Ongedaan maken");
 	strcpy(sUndoAccept, "Ongedaan maken Accepteer");
 	strcpy(sUnits, "Eenheden");
@@ -694,4 +696,16 @@ void set_nl(void)
 	strcpy(sZip, "Postcode");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Stel de oorsprong en de richting van de coördinatenassen in.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Aantal cijfers na het decimaalteken");
+	strcpy(s_Percentages, "Percentages");
 }
+

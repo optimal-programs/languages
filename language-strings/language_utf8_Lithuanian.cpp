@@ -6,12 +6,13 @@
 //---------------------------------------------------------------------------
 #include "language_string_id.h"
 //---------------------------------------------------------------------------
-
 void set_lt(void)
 {
 	//Lithuanian
-	//translated by a customer
-	//2025.3.29.0
+	// translated by a customer on 2020.07.28
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Plotas");
+	strcpy(s_Mass, "Masė");
 	strcpy(s_Advanced, "Išplėstinė");
 	strcpy(s_Relative_coordinates, "Santykinės koordinatės");
 	strcpy(s_Absolute_coordinates, "Absoliučios koordinatės");
@@ -39,7 +40,7 @@ void set_lt(void)
 	strcpy(s_Contact_us, "Susisiekite su mumis");
 	strcpy(s_Column, "Stulpelis");
 	strcpy(s_Comma, "Kablelis");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Kablelis negali vienu metu būti sąrašo skirtuku ir dešimtainio skirtuko simboliu!");
 	strcpy(s_Copy, "Kopijuoti");
 	strcpy(s_Copy_for_move, "Kopijuoti judesiui");
 	strcpy(s_Cut_higher_level_strips_first, "Pirmiausia nupjaukite aukštesnio lygio juosteles");
@@ -136,7 +137,7 @@ void set_lt(void)
 
 	strcpy(s_Stock, "Atliekos");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Sistemos nustatymas");
 	strcpy(s_Tabular, "Lentelinis");
 	strcpy(s_Total, "Iš viso");
 	strcpy(s_Total_size, "Visas dydis");
@@ -649,7 +650,7 @@ void set_lt(void)
 	strcpy(sTwoPanels, "2 skydai");
 	strcpy(sType, "Tipas");
 	strcpy(sTypeofmaterialfromwhichtocut, "Medžiagos rūšis iš kurios reikia pjaustyti");
-	strcpy(sTypesAreNotMatched, "Optimizavimas nebuvo atliktas! Šiuo metu tokios medžiagos sandėlyje nėra! Detalės gali būti išpjautos tik iš tos pačios medžiagos lakštų. Pakeiskite kai kurias medžiagas iš atitinkamo stulpelio!");
+	strcpy(sTypesAreNotMatched, "Optimizavimas nebuvo atliktas! Medžiagos iš detalių ir atsargų lentelių nesutampa! Detalę galima pjauti tik iš to paties pavadinimo medžiagos, esančios sandėlyje. Pakeiskite medžiagos pavadinimą atitinkamuose stulpeliuose!");
 	strcpy(sUndo, "Anuliuoti");
 	strcpy(sUndoAccept, "Anuliuoti sutikimą");
 	strcpy(sUnits, "vienetų");
@@ -695,4 +696,16 @@ void set_lt(void)
 	strcpy(sZip, "Pašto kodas");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Nustatykite koordinačių ašių kilmę ir kryptį.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Skaičių skaičius po dešimtainio skyriklio");
+	strcpy(s_Percentages, "Procenti");
 }
+

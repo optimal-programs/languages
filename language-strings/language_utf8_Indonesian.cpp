@@ -9,8 +9,10 @@
 void set_id(void)
 {
 	//Indonesian
-	//automatic translation
-	//2025.3.29.0
+	//translated with google translate on 2020.07.06
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Luas");
+	strcpy(s_Mass, "Massa");
 	strcpy(s_Advanced, "Canggih");
 	strcpy(s_Relative_coordinates, "Koordinat relatif");
 	strcpy(s_Absolute_coordinates, "Koordinat absolut");
@@ -38,7 +40,7 @@ void set_id(void)
 	strcpy(s_Contact_us, "Hubungi kami");
 	strcpy(s_Column, "Kolom");
 	strcpy(s_Comma, "Koma");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Simbol koma tidak dapat berfungsi sebagai pemisah daftar dan pemisah desimal secara bersamaan!");
 	strcpy(s_Copy, "Salinan");
 	strcpy(s_Copy_for_move, "Salin untuk pindah");
 	strcpy(s_Cut_higher_level_strips_first, "Potong strip tingkat tinggi terlebih dahulu");
@@ -135,7 +137,7 @@ void set_id(void)
 
 	strcpy(s_Stock, "Persediaan");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Pengaturan sistem");
 	strcpy(s_Tabular, "Datar");
 	strcpy(s_Total, "Total");
 	strcpy(s_Total_size, "Ukuran total");
@@ -648,7 +650,7 @@ void set_id(void)
 	strcpy(sTwoPanels, "2 panel");
 	strcpy(sType, "Tipe");
 	strcpy(sTypeofmaterialfromwhichtocut, "Jenis bahan yang akan dipotong");
-	strcpy(sTypesAreNotMatched, "Optimalisasi tidak dilakukan! Saat ini, tidak ada bahan seperti itu dalam stok! Potongan dapat dipotong dari lembaran dari bahan yang sama. Ubah beberapa materi dari kolom yang sesuai!");
+	strcpy(sTypesAreNotMatched, "Optimasi gagal! Material dari tabel Parts dan Stock tidak cocok! Part hanya dapat dipotong dari material dengan nama yang sama di stock. Ubah nama material dari kolom yang sesuai!");
 	strcpy(sUndo, "Membuka");
 	strcpy(sUndoAccept, "Batalkan Terima");
 	strcpy(sUnits, "unit");
@@ -694,4 +696,16 @@ void set_id(void)
 	strcpy(sZip, "Kode Pos");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Tetapkan asal dan arah sumbu koordinat.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Jumlah digit setelah pemisah desimal");
+	strcpy(s_Percentages, "Persentase");
 }
+

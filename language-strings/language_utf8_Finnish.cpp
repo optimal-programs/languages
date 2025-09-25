@@ -8,9 +8,11 @@
 //---------------------------------------------------------------------------
 void set_fi(void)
 {
-	//Finnish
-	//automatic translation
-	//2025.3.29.0
+	//finish
+	//did not check manually
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "pinta-ala");
+	strcpy(s_Mass, "Massa");
 	strcpy(s_Advanced, "Edistynyt");
 	strcpy(s_Relative_coordinates, "Suhteelliset koordinaatit");
 	strcpy(s_Absolute_coordinates, "Absoluuttiset koordinaatit");
@@ -38,7 +40,7 @@ void set_fi(void)
 	strcpy(s_Contact_us, "Ota meihin yhteyttä");
 	strcpy(s_Column, "Sarake");
 	strcpy(s_Comma, "Pilkku");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Pilkkumerkkiä ei voi käyttää samanaikaisesti luetteloerottimena ja desimaalierottimena!");
 	strcpy(s_Copy, "Kopio");
 	strcpy(s_Copy_for_move, "Kopeeri liikumiseks");
 	strcpy(s_Cut_higher_level_strips_first, "Leikkaa ensin korkeamman tason nauhat");
@@ -135,7 +137,7 @@ void set_fi(void)
 
 	strcpy(s_Stock, "Varasto");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Järjestelmän asetukset");
 	strcpy(s_Tabular, "Taulukkomainen");
 	strcpy(s_Total, "Kaikki yhteensä");
 	strcpy(s_Total_size, "Koko");
@@ -648,7 +650,7 @@ void set_fi(void)
 	strcpy(sTwoPanels, "2 paneelit");
 	strcpy(sType, "tyyppi");
 	strcpy(sTypeofmaterialfromwhichtocut, "Tyyppistä materiaalia, joka on leikattu");
-	strcpy(sTypesAreNotMatched, "Optimointi ei suoritettu! Osia leikkaamalla saadaan arkkeja Varaston joilla on saman tyyppinen materiaalia. Tällä hetkellä on varastossa, ei tällaista materiaalia! Muuta joitakin materiaaleja vastaavaan sarakkeeseen!");
+	strcpy(sTypesAreNotMatched, "Optimointia ei suoritettu! Osa- ja varastotaulukoiden materiaalit eivät täsmää! Osan voi leikata vain samannimisestä varastossa olevasta materiaalista. Muuta materiaalien nimiä vastaavista sarakkeista!");
 	strcpy(sUndo, "Kumoa");
 	strcpy(sUndoAccept, "Kumoa Hyväksy");
 	strcpy(sUnits, "yksiköt");
@@ -694,4 +696,16 @@ void set_fi(void)
 	strcpy(sZip, "Postinumero");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Aseta koordinaattiakselien origo ja suunta.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Numeroiden lukumäärä desimaalierottimen jälkeen");
+	strcpy(s_Percentages, "Prosentit");
 }
+

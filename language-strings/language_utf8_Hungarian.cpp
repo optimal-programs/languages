@@ -9,8 +9,10 @@
 void set_hu(void)
 {
 	//Hungarian
-	//checked by a customer
-	//2025.3.29.0
+	//did not check manually
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Terület");
+	strcpy(s_Mass, "Tömeg");
 	strcpy(s_Advanced, "Fejlett");
 	strcpy(s_Relative_coordinates, "Relatív koordináták");
 	strcpy(s_Absolute_coordinates, "Abszolút koordináták");
@@ -38,7 +40,7 @@ void set_hu(void)
 	strcpy(s_Contact_us, "Lépjen kapcsolatba velünk");
 	strcpy(s_Column, "Oszlop");
 	strcpy(s_Comma, "Vessző");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "A vessző nem lehet egyszerre listaelválasztó és tizedesjel!");
 	strcpy(s_Copy, "Másolat");
 	strcpy(s_Copy_for_move, "Másolás a mozgatáshoz");
 	strcpy(s_Cut_higher_level_strips_first, "Először vágja le a magasabb szintű csíkokat");
@@ -135,7 +137,7 @@ void set_hu(void)
 
 	strcpy(s_Stock, "Raktar");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Rendszerbeállítás");
 	strcpy(s_Tabular, "Táblázatos");
 	strcpy(s_Total, "Teljes");
 	strcpy(s_Total_size, "Teljes méret");
@@ -648,7 +650,7 @@ void set_hu(void)
 	strcpy(sTwoPanels, "2 lemez");
 	strcpy(sType, "típus");
 	strcpy(sTypeofmaterialfromwhichtocut, "Az anyag típusa, ahonnan vágni");
-	strcpy(sTypesAreNotMatched, "Az optimalizálást nem hajtották végre! Jelenleg nincs ilyen anyag a készletben! Darabokat lehet vágni azonos anyagú lapokból. Módosítson néhány anyagot a megfelelő oszlopból.");
+	strcpy(sTypesAreNotMatched, "Az optimalizálás nem történt meg! Az Alkatrészek és a Készlet táblázatok anyagai nem egyeznek! Alkatrészt csak az azonos nevű, raktáron lévő anyagból lehet kivágni. Módosítsa az anyagok nevét a megfelelő oszlopokban!");
 	strcpy(sUndo, "Visszavonás");
 	strcpy(sUndoAccept, "Visszavonás elfogadása");
 	strcpy(sUnits, "egységek");
@@ -694,4 +696,16 @@ void set_hu(void)
 	strcpy(sZip, "Irányítószám");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Állítsa be a koordinátatengelyek origóját és irányát.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "A tizedesjel utáni számjegyek száma");
+	strcpy(s_Percentages, "Százalékok");
 }
+

@@ -10,7 +10,9 @@ void set_sq(void)
 {
 	//Albanian
 	//translated with google translate on 2020.07.06
-	//2025.3.29.0
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Sipërfaqja");
+	strcpy(s_Mass, "Masa");
 	strcpy(s_Advanced, "E avancuar");
 	strcpy(s_Relative_coordinates, "Koordinatat relative");
 	strcpy(s_Absolute_coordinates, "Koordinatat absolute");
@@ -38,7 +40,7 @@ void set_sq(void)
 	strcpy(s_Contact_us, "Na kontaktoni");
 	strcpy(s_Column, "Kolona");
 	strcpy(s_Comma, "presje");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Simboli i presjes nuk mund të jetë njëkohësisht ndarës i listës dhe ndarës i presjes dhjetore!");
 	strcpy(s_Copy, "Kopjoni");
 	strcpy(s_Copy_for_move, "Kopjoni për lëvizje");
 	strcpy(s_Cut_higher_level_strips_first, "Pritini së pari shiritat e nivelit më të lartë");
@@ -135,7 +137,7 @@ void set_sq(void)
 
 	strcpy(s_Stock, "Aksionare");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Cilësimet e sistemit");
 	strcpy(s_Tabular, "Tabela");
 	strcpy(s_Total, "Total");
 	strcpy(s_Total_size, "Madhësia totale");
@@ -648,7 +650,7 @@ void set_sq(void)
 	strcpy(sTwoPanels, "2 panele");
 	strcpy(sType, "lloj");
 	strcpy(sTypeofmaterialfromwhichtocut, "Lloji i materialit nga i cili duhet prerë");
-	strcpy(sTypesAreNotMatched, "Optimizimi nuk u krye! Aktualisht, nuk ka asnjë material të tillë në magazinë! Pjesët mund të priten nga çarçafët e të njëjtit material. Ndryshoni disa materiale nga kolona përkatëse!");
+	strcpy(sTypesAreNotMatched, "Optimizimi nuk u krye! Materialet nga tabelat Pjesë dhe Stok nuk përputhen! Mund të pritet një Pjesë vetëm nga materiali me të njëjtin emër në stok. Ndryshoni emrin e materialeve nga kolonat përkatëse!");
 	strcpy(sUndo, "Undo");
 	strcpy(sUndoAccept, "Zhbëj Prano");
 	strcpy(sUnits, "njësitë");
@@ -694,4 +696,16 @@ void set_sq(void)
 	strcpy(sZip, "Kodi Postar");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Vendosni origjinën dhe drejtimin e boshteve të koordinatave.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Numri i shifrave pas ndarësit dhjetor");
+	strcpy(s_Percentages, "Përqindjet");
 }
+

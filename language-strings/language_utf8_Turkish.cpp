@@ -9,8 +9,10 @@
 void set_tr(void)
 {
 	//Turkish
-	//automatic translation
-	//2025.3.29.0
+	//did not check manually
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "Alan");
+	strcpy(s_Mass, "Kütle");
 	strcpy(s_Advanced, "Gelişmiş");
 	strcpy(s_Relative_coordinates, "Bağıl koordinatlar");
 	strcpy(s_Absolute_coordinates, "Mutlak koordinatlar");
@@ -38,7 +40,7 @@ void set_tr(void)
 	strcpy(s_Contact_us, "Bize Ulaşın");
 	strcpy(s_Column, "Kolon");
 	strcpy(s_Comma, "Virgül");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Virgül simgesi aynı anda hem liste ayırıcısı hem de ondalık ayırıcısı olamaz!");
 	strcpy(s_Copy, "Kopyala");
 	strcpy(s_Copy_for_move, "Taşınmak için kopyala");
 	strcpy(s_Cut_higher_level_strips_first, "Önce daha yüksek seviyedeki şeritleri kesin");
@@ -135,7 +137,7 @@ void set_tr(void)
 
 	strcpy(s_Stock, "Envanter");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "Sistem ayarı");
 	strcpy(s_Tabular, "tablo şeklinde");
 	strcpy(s_Total, "Toplam");
 	strcpy(s_Total_size, "Toplam boyut");
@@ -648,7 +650,7 @@ void set_tr(void)
 	strcpy(sTwoPanels, "2 paneller");
 	strcpy(sType, "tip");
 	strcpy(sTypeofmaterialfromwhichtocut, "Malzeme tipi kesmek için hangi");
-	strcpy(sTypesAreNotMatched, "Optimizasyonu yapılmadı! Parçalar aynı malzeme türüne sahip envanterinden levhalar ile kesilir. Şu anda, stok, böyle bir malzeme yoktur! Ilgili sütun bazı malzemeleri değiştirin!");
+	strcpy(sTypesAreNotMatched, "Optimizasyon gerçekleştirilemedi! Parça ve Stok tablolarındaki malzemeler eşleşmiyor! Bir Parça yalnızca stokta aynı adı taşıyan malzemeden kesilebilir. Malzemelerin adını ilgili sütunlardan değiştirin!");
 	strcpy(sUndo, "Undo");
 	strcpy(sUndoAccept, "Kabul Undo");
 	strcpy(sUnits, "üniteleri");
@@ -694,4 +696,16 @@ void set_tr(void)
 	strcpy(sZip, "Posta kodu");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "Koordinat eksenlerinin orijinini ve yönünü ayarlayın.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "Ondalık ayırıcısından sonraki basamak sayısı");
+	strcpy(s_Percentages, "Yüzdeler");
 }
+

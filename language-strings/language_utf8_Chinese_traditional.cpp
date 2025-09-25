@@ -9,8 +9,10 @@
 void set_cn_t(void)
 {
 	// Chinese traditional
-	// checked manually ryantsang@bschk.com on 2023.1.17
-	//2025.3.29.0
+	// checked manually by a customer on 2023.1.17
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "面積");
+	strcpy(s_Mass, "質量");
 	strcpy(s_Advanced, "先進的");
 	strcpy(s_Relative_coordinates, "相對座標");
 	strcpy(s_Absolute_coordinates, "絕對座標");
@@ -38,7 +40,7 @@ void set_cn_t(void)
 	strcpy(s_Contact_us, "聯繫我們");
 	strcpy(s_Column, "列");
 	strcpy(s_Comma, "逗號");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "逗號符號不能同時作為列表分隔符號和小數點分隔符號！");
 	strcpy(s_Copy, "複製");
 	strcpy(s_Copy_for_move, "複製並移動");
 	strcpy(s_Cut_higher_level_strips_first, "先切割較高等級的條帶");
@@ -135,7 +137,7 @@ void set_cn_t(void)
 	strcpy(s_Starting_direction, "起始方向");
 	strcpy(s_Stock, "庫存");
 	strcpy(s_Stop, "停止");
-
+	strcpy(s_System_setting, "系統設定");
 	strcpy(s_Tabular, "表格式的");
 	strcpy(s_Total, "總數");
 	strcpy(s_Total_size, "總尺寸");
@@ -648,7 +650,7 @@ void set_cn_t(void)
 	strcpy(sTwoPanels, "2個面板");
 	strcpy(sType, "類型");
 	strcpy(sTypeofmaterialfromwhichtocut, "切割材料的類型");
-	strcpy(sTypesAreNotMatched, "沒有執行優化！ 庫存內目前沒有該材料！ 可以從相同材料的板材上切下零件。 在相應的列中更改一些材料！");
+	strcpy(sTypesAreNotMatched, "優化未執行！零件表和庫存表中的材質不符！只能從庫存中同名的材質切割零件。請從對應的列中更改材質名稱！");
 	strcpy(sUndo, "恢復");
 	strcpy(sUndoAccept, "恢復確認");
 	strcpy(sUnits, "單位");
@@ -694,5 +696,17 @@ void set_cn_t(void)
 	strcpy(sZip, "郵遞區號");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "設置坐標軸的原點和方向。");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "小數點後的數字位數");
+	strcpy(s_Percentages, "百分比");
 }
+
 

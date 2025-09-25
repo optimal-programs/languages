@@ -9,8 +9,10 @@
 void set_kr(void)
 {
 	//Koreean
-	//translated by a customer
-	//2025.3.29.0
+	// translated by a customer
+	// last update on: 2025.9.25.0
+	strcpy(s_Area, "면적");
+	strcpy(s_Mass, "질량");
 	strcpy(s_Advanced, "고급의");
 	strcpy(s_Relative_coordinates, "상대 좌표");
 	strcpy(s_Absolute_coordinates, "절대 좌표");
@@ -38,7 +40,7 @@ void set_kr(void)
 	strcpy(s_Contact_us, "문의하기");
 	strcpy(s_Column, "열");
 	strcpy(s_Comma, "반점");
-
+	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "쉼표 기호는 동시에 목록 구분 기호와 소수 구분 기호로 사용될 수 없습니다!");
 	strcpy(s_Copy, "부");
 	strcpy(s_Copy_for_move, "이동을 위해 복사");
 	strcpy(s_Cut_higher_level_strips_first, "먼저 상위 레벨의 스트립을 잘라내세요");
@@ -135,7 +137,7 @@ void set_kr(void)
 
 	strcpy(s_Stock, "재고");
 	strcpy(s_Stop, "Stop");
-
+	strcpy(s_System_setting, "시스템 설정");
 	strcpy(s_Tabular, "표의");
 	strcpy(s_Total, "총");
 	strcpy(s_Total_size, "총합 크기");
@@ -648,7 +650,7 @@ void set_kr(void)
 	strcpy(sTwoPanels, "2 개 패널");
 	strcpy(sType, "유형");
 	strcpy(sTypeofmaterialfromwhichtocut, "절단 할 자재의 유형");
-	strcpy(sTypesAreNotMatched, "최적화가 수행되지 않았습니다! 현재는 재고가 없습니다! 같은 자재의 시트로 조각을 자를 수 있습니다. 해당 열에서 자재를 변경하십시오!");
+	strcpy(sTypesAreNotMatched, "최적화가 수행되지 않았습니다! 부품 테이블과 재고 테이블의 재료가 일치하지 않습니다! 재고에 있는 동일한 이름의 재료에서만 부품을 절단할 수 있습니다. 해당 열에서 재료 이름을 변경하세요!");
 	strcpy(sUndo, "실행 취소");
 	strcpy(sUndoAccept, "수락 취소");
 	strcpy(sUnits, "단위");
@@ -694,4 +696,16 @@ void set_kr(void)
 	strcpy(sZip, "우편 번호");
 	strcpy(s_Set_the_origin_and_the_direction_of_the_axes, "좌표축의 원점과 방향을 설정합니다.");
 
+
+
+
+
+
+
+
+
+
+	strcpy(s_Number_of_digits_after_the_decimal_separator, "소수점 구분 기호 뒤의 숫자 개수");
+	strcpy(s_Percentages, "백분율");
 }
+
