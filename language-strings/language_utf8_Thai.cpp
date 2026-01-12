@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_th(void)
 {
-	//Thai
-	//did not check manually
-	// last update on: 2025.9.25.0
+	// Thai
+	// did not check manually
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "พื้นที่");
 	strcpy(s_Mass, "มวล");
 	strcpy(s_Advanced, "ขั้นสูง");
@@ -133,7 +134,7 @@ void set_th(void)
 	strcpy(s_Sort_descending_by, "เรียงลำดับจากมากไปน้อย");
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "มุมเริ่มต้น");
-
+	strcpy(s_Sticker, "สติ๊กเกอร์");
 
 	strcpy(s_Stock, "คลังสินค้า");
 	strcpy(s_Stop, "Stop");

@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_no(void)
 {
-	//Norvegian
-	//did not check manually
-	// last update on: 2025.9.25.0
+	// Norvegian
+	// Did not check manually
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Areal");
 	strcpy(s_Mass, "Masse");
 	strcpy(s_Advanced, "Avansert");
@@ -133,7 +134,7 @@ void set_no(void)
 	strcpy(s_Sort_descending_by, "Sorter synkende etter");
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Startvinkel");
-
+	strcpy(s_Sticker, "Klistremerke");
 
 	strcpy(s_Stock, "Lager");
 	strcpy(s_Stop, "Stop");

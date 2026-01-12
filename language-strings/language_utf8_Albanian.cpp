@@ -10,7 +10,7 @@ void set_sq(void)
 {
 	//Albanian
 	//translated with google translate on 2020.07.06
-	// last update on: 2025.9.25.0
+	// last update on: 2025.11.01.0
 	strcpy(s_Area, "Sipërfaqja");
 	strcpy(s_Mass, "Masa");
 	strcpy(s_Advanced, "E avancuar");
@@ -134,7 +134,7 @@ void set_sq(void)
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Këndi i fillimit");
 
-
+	strcpy(s_Sticker, "Ngjitëse");
 	strcpy(s_Stock, "Aksionare");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "Cilësimet e sistemit");

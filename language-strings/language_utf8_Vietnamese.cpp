@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_vn(void)
 {
-	//Vietnamese
+	// Vietnamese
 	// translated by a distributor
-	// last update on: 2025.9.25.0
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Diện tích");
 	strcpy(s_Mass, "Khối lượng");
 	strcpy(s_Advanced, "Trình độ cao");
@@ -134,7 +135,7 @@ void set_vn(void)
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Góc bắt đầu");
 
-
+	strcpy(s_Sticker, "Nhãn dán");
 	strcpy(s_Stock, "TỒN KHO");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "Cài đặt hệ thống");

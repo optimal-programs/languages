@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_de(void)
 {
-	//German
-	//checked manually, but needs human revision
-	// last update on: 2025.9.25.0
+	// German
+	// checked manually, but needs human revision
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Fläche");
 	strcpy(s_Mass, "Masse");
 	strcpy(s_Advanced, "Fortschrittlich");
@@ -134,7 +135,7 @@ void set_de(void)
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Startwinkel");
 
-
+	strcpy(s_Sticker, "Aufkleber");
 	strcpy(s_Stock, "Warenhaus");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "Systemeinstellung");

@@ -10,7 +10,7 @@ void set_en(void)
 {
 	//English 
 	// checked manually
-	//2025.9.25.0
+	// last update on: 2025.12.18.0
 	strcpy(s_Area, "Area");
 	strcpy(s_Mass, "Mass");
 	strcpy(s_Advanced, "Advanced");
@@ -40,6 +40,7 @@ void set_en(void)
 	strcpy(s_Contact_us, "Contact us");
 	strcpy(s_Column, "Column");
 	strcpy(s_Comma, "Comma");
+	strcpy(s_Contour, "Contour");
 	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "The comma symbol cannot simultaneously be the list separator and the decimal separator!");
 	strcpy(s_Copy, "Copy");
 	strcpy(s_Copy_for_move, "Copy for move");
@@ -88,6 +89,7 @@ void set_en(void)
 	strcpy(s_Multiple_shapes_detected_Next_rows_will_be_overwritten_Continue, "More than one shape was detected. Therefore, the subsequent rows will be overwritten. Continue?");
 	strcpy(s_More, "More");
 	strcpy(s_Multiple_values, "Multiple values");
+	strcpy(s_New, "New");
 	strcpy(s_No_texture, "No Texture");
 	strcpy(s_Number, "Number");
 	strcpy(s_Number_of_images, "Number of images");
@@ -109,6 +111,7 @@ void set_en(void)
 	strcpy(s_Redo_the_last_operation, "Redo the last operation");
 	strcpy(s_Regular_polygon, "Regular polygon");
 	strcpy(s_Relative, "Relative");
+	strcpy(s_Rename, "Rename");
 	strcpy(s_Reused, "Reused");
 	strcpy(s_Rotated, "Rotated");
 	strcpy(s_Save_all, "Save all");
@@ -135,6 +138,7 @@ void set_en(void)
 	strcpy(s_Starting_angle, "Starting angle");
 	strcpy(s_Starting_corner, "Starting corner");
 	strcpy(s_Starting_direction, "Starting direction");
+	strcpy(s_Sticker, "Sticker");
 	strcpy(s_Stock, "Stock");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "System setting");
@@ -708,5 +712,7 @@ void set_en(void)
 	strcpy(s_Number_of_digits_after_the_decimal_separator, "Number of digits after the decimal separator");
 	strcpy(s_Percentages, "Percentages");
 }
+
+
 
 

@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_da(void)
 {
-	//Danish
-	//translated with the latest version of google translate (2020.07.03)
-	// last update on: 2025.9.25.0
+	// Danish
+	// Translated with the latest version of google translate (2020.07.03)
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Areal");
 	strcpy(s_Mass, "Masse");
 	strcpy(s_Advanced, "Fremskreden");
@@ -133,7 +134,7 @@ void set_da(void)
 	strcpy(s_Sort_descending_by, "Sorter faldende efter");
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Startvinkel");
-
+	strcpy(s_Sticker, "Klistermærke");
 
 	strcpy(s_Stock, "Lager");
 	strcpy(s_Stop, "Stop");

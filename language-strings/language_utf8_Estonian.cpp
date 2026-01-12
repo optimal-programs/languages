@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_et(void)
 {
-	//Estonian
-	//did not check manually
-	// last update on: 2025.9.25.0
+	// Estonian
+	// did not check manually
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Pindala");
 	strcpy(s_Mass, "mass");
 	strcpy(s_Advanced, "Täpsemalt");
@@ -133,7 +134,7 @@ void set_et(void)
 	strcpy(s_Sort_descending_by, "Sorteeri kahanevalt");
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Stardinurk");
-
+	strcpy(s_Sticker, "Kleebis");
 
 	strcpy(s_Stock, "Ladu");
 	strcpy(s_Stop, "Stop");

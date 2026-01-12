@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_ru(void)
 {
-	//Russian
-	// translated by a distributor; new versions needs human check
-	// last update on: 2025.9.25.0
+	// Russian
+	// translated by a customer; new versions needs human check
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Площадь");
 	strcpy(s_Mass, "Масса");
 	strcpy(s_Advanced, "Передовой");
@@ -134,7 +135,7 @@ void set_ru(void)
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Начальный угол");
 
-
+	strcpy(s_Sticker, "Наклейка");
 	strcpy(s_Stock, "СКЛАД");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "Системные настройки");

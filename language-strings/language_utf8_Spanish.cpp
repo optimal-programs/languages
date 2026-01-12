@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_es(void)
 {
-	//Spanish
+	// Spanish
 	// checked manually with GT
-	// last update on: 2025.9.25.0
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Área");
 	strcpy(s_Mass, "Masa");
 	strcpy(s_Advanced, "Avanzada");
@@ -135,8 +136,11 @@ void set_es(void)
 	strcpy(s_Starting_angle, "Ángulo de inicio");
 	strcpy(s_Starting_corner, "Esquina inicial");
 	strcpy(s_Starting_direction, "Dirección de inicio");
+	strcpy(s_Sticker, "Etiqueta");
+
 	strcpy(s_Stock, "Inventario");
 	strcpy(s_Stop, "Stop");
+	
 	strcpy(s_System_setting, "Configuración del sistema");
 	strcpy(s_Tabular, "Tabular");
 	strcpy(s_Total, "Total");

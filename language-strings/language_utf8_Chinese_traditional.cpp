@@ -10,7 +10,8 @@ void set_cn_t(void)
 {
 	// Chinese traditional
 	// checked manually by a customer on 2023.1.17
-	// last update on: 2025.9.25.0
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "面積");
 	strcpy(s_Mass, "質量");
 	strcpy(s_Advanced, "先進的");
@@ -135,6 +136,8 @@ void set_cn_t(void)
 	strcpy(s_Starting_angle, "起始角度");
 	strcpy(s_Starting_corner, "起始點");
 	strcpy(s_Starting_direction, "起始方向");
+	strcpy(s_Sticker, "貼紙");
+	
 	strcpy(s_Stock, "庫存");
 	strcpy(s_Stop, "停止");
 	strcpy(s_System_setting, "系統設定");

@@ -10,7 +10,7 @@ void set_ar(void)
 {
 	//Arabic
 	// translated by a customer
-	// last update on: 2025.9.25.0
+	// last update on: 2025.11.01.0
 	strcpy(s_Area, "مساحة");
 	strcpy(s_Mass, "كتلة");
 	strcpy(s_Advanced, "متقدم");
@@ -134,7 +134,7 @@ void set_ar(void)
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "زاوية البداية");
 
-
+	strcpy(s_Sticker, "ملصق");
 	strcpy(s_Stock, "مخزون");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "إعدادات النظام");

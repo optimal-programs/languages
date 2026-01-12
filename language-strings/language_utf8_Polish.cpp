@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_pl(void)
 {
-	//Polish
-	//// translated by a customer on 2020.08.30
-	// last update on: 2025.9.25.0
+	// Polish
+	// translated by a customer on 2020.08.30
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Pole");
 	strcpy(s_Mass, "Masa");
 	strcpy(s_Advanced, "Zaawansowany");
@@ -134,7 +135,7 @@ void set_pl(void)
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Kąt początkowy");
 
-
+	strcpy(s_Sticker, "Naklejka");
 	strcpy(s_Stock, "Magazyn");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "Ustawienia systemowe");

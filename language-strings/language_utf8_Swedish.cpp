@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_sv(void)
 {
-	//swedish
-	//did not check manually
-	// last update on: 2025.9.25.0
+	// Swedish
+	// did not check manually
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Area");
 	strcpy(s_Mass, "Massa");
 	strcpy(s_Advanced, "Avancerad");
@@ -133,7 +134,7 @@ void set_sv(void)
 	strcpy(s_Sort_descending_by, "Sortera fallande efter");
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Startvinkel");
-
+	strcpy(s_Sticker, "Klistermärke");
 
 	strcpy(s_Stock, "Varumagasin");
 	strcpy(s_Stop, "Stop");

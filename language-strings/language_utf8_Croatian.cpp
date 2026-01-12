@@ -10,7 +10,8 @@ void set_hr(void)
 {
 	// Croatian
 	// did not check manually
-	// last update on: 2025.9.25.0
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Površina");
 	strcpy(s_Mass, "Masa");
 	strcpy(s_Advanced, "Napredno");
@@ -133,7 +134,7 @@ void set_hr(void)
 	strcpy(s_Sort_descending_by, "Poredaj silazno prema");
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Početni kut");
-
+	strcpy(s_Sticker, "Naljepnica");
 
 	strcpy(s_Stock, "Inventar");
 	strcpy(s_Stop, "Stop");

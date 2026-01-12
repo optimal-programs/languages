@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_sk(void)
 {
-	//Slovak
-	//did not check manually
-	// last update on: 2025.9.25.0
+	// Slovak
+	// did not check manually
+	// last update on: 2025.11.01.0
+
 	strcpy(s_Area, "Plocha");
 	strcpy(s_Mass, "Hmotnosť");
 	strcpy(s_Advanced, "Pokročilé");
@@ -133,7 +134,7 @@ void set_sk(void)
 	strcpy(s_Sort_descending_by, "Zoradiť zostupne podľa");
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Štartovací uhol");
-
+	strcpy(s_Sticker, "Nálepka");
 
 	strcpy(s_Stock, "Inventár");
 	strcpy(s_Stop, "Stop");

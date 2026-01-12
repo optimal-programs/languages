@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_gr(void)
 {
-	//Greek
+	// Greek
 	// translated by human, but needs revision
-	// last update on: 2025.9.25.0
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Εμβαδόν");
 	strcpy(s_Mass, "Μάζα");
 	strcpy(s_Advanced, "Προχωρημένος");
@@ -133,7 +134,7 @@ void set_gr(void)
 	strcpy(s_Sort_descending_by, "Ταξινόμηση φθίνουσα κατά");
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Γωνία εκκίνησης");
-
+	strcpy(s_Sticker, "ετικέτα");
 
 	strcpy(s_Stock, "ΑΠΟΘΕΜΑ");
 	strcpy(s_Stop, "Stop");

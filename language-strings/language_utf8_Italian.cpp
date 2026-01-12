@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_it(void)
 {
-	//Italian
-	// // translated by a customer on 2021.07.18
-	// last update on: 2025.9.25.0
+	// Italian
+	// translated by a customer on 2021.07.18
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Area");
 	strcpy(s_Mass, "Massa");
 	strcpy(s_Advanced, "Avanzato");
@@ -134,7 +135,7 @@ void set_it(void)
 	strcpy(s_Start, "Inizio");
 	strcpy(s_Starting_angle, "Angolo di partenza");
 
-
+	strcpy(s_Sticker, "Adesivo");
 	strcpy(s_Stock, "Giacenza");
 	strcpy(s_Stop, "Fermare");
 	strcpy(s_System_setting, "Impostazione del sistema");

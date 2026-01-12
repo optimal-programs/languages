@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_fs(void)
 {
-	//Persian/Farsi
-	// automatic translation
-	// last update on: 2025.9.25.0
+	// Persian/Farsi
+	// automatic translation with Google translate
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "مساحت");
 	strcpy(s_Mass, "جرم");
 	strcpy(s_Advanced, "پیشرفته");
@@ -135,6 +136,8 @@ void set_fs(void)
 	strcpy(s_Starting_angle, "زاویه شروع");
 	strcpy(s_Starting_corner, "گوشه شروع");
 	strcpy(s_Starting_direction, "جهت شروع");
+	strcpy(s_Sticker, "استیکر");
+	
 	strcpy(s_Stock, "موجودی");
 	strcpy(s_Stop, "متوقف کردن");
 	strcpy(s_System_setting, "تنظیمات سیستم");

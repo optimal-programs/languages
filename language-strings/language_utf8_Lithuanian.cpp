@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_lt(void)
 {
-	//Lithuanian
+	// Lithuanian
 	// translated by a customer on 2020.07.28
-	// last update on: 2025.9.25.0
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Plotas");
 	strcpy(s_Mass, "Masė");
 	strcpy(s_Advanced, "Išplėstinė");
@@ -133,7 +134,7 @@ void set_lt(void)
 	strcpy(s_Sort_descending_by, "Rūšiuoti mažėjančia tvarka pagal");
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Pradinis kampas");
-
+	strcpy(s_Sticker, "Lipdukas");
 
 	strcpy(s_Stock, "Atliekos");
 	strcpy(s_Stop, "Stop");

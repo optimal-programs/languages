@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_hu(void)
 {
-	//Hungarian
-	//did not check manually
-	// last update on: 2025.9.25.0
+	// Hungarian
+	// Did not check manually
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Terület");
 	strcpy(s_Mass, "Tömeg");
 	strcpy(s_Advanced, "Fejlett");
@@ -134,7 +135,7 @@ void set_hu(void)
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Kiindulási szög");
 
-
+	strcpy(s_Sticker, "Matrica");
 	strcpy(s_Stock, "Raktar");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "Rendszerbeállítás");

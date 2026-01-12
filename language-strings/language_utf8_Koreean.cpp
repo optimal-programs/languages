@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_kr(void)
 {
-	//Koreean
+	// Koreean
 	// translated by a customer
-	// last update on: 2025.9.25.0
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "면적");
 	strcpy(s_Mass, "질량");
 	strcpy(s_Advanced, "고급의");
@@ -134,7 +135,7 @@ void set_kr(void)
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "시작 각도");
 
-
+	strcpy(s_Sticker, "상표");
 	strcpy(s_Stock, "재고");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "시스템 설정");

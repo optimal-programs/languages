@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_fi(void)
 {
-	//finish
-	//did not check manually
-	// last update on: 2025.9.25.0
+	// Finnish
+	// did not check manually
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "pinta-ala");
 	strcpy(s_Mass, "Massa");
 	strcpy(s_Advanced, "Edistynyt");
@@ -134,7 +135,7 @@ void set_fi(void)
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Lähtökulma");
 
-
+	strcpy(s_Sticker, "Tarra");
 	strcpy(s_Stock, "Varasto");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "Järjestelmän asetukset");

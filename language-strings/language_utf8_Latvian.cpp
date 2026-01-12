@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_lv(void)
 {
-	//latvian
-	//did not check manually
-	// last update on: 2025.9.25.0
+	// Latvian
+	// did not check manually
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "laukums");
 	strcpy(s_Mass, "masa");
 	strcpy(s_Advanced, "Papildu");
@@ -134,7 +135,7 @@ void set_lv(void)
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Sākuma leņķis");
 
-
+	strcpy(s_Sticker, "Uzlīme");
 	strcpy(s_Stock, "Uzkrajums");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "Sistēmas iestatījums");

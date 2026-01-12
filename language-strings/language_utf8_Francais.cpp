@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_fr(void)
 {
-	//Francais
+	// Francais
 	// needs human check
-	// last update on: 2025.9.25.0
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Aire");
 	strcpy(s_Mass, "Masse");
 	strcpy(s_Advanced, "Avancée");
@@ -134,7 +135,7 @@ void set_fr(void)
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Angle de départ");
 
-
+	strcpy(s_Sticker, "Autocollant");
 	strcpy(s_Stock, "Stocker");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "Paramétrage du système");

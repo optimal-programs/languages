@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_bg(void)
 {
-	//Bulgarian
+	// Bulgarian
 	// translated by a customer
-	// last update on: 2025.9.25.0
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Площ");
 	strcpy(s_Mass, "Маса");
 	strcpy(s_Advanced, "Разширено");
@@ -134,7 +135,7 @@ void set_bg(void)
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Начален ъгъл");
 
-
+	strcpy(s_Sticker, "Стикер");
 	strcpy(s_Stock, "НАЛИЧНОСТ");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "Системна настройка");

@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_ml(void)
 {
-	//Malaesian
-	//did not check manually
-	// last update on: 2025.9.25.0
+	// Malaesian
+	// did not check manually
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Luas");
 	strcpy(s_Mass, "Jisim");
 	strcpy(s_Advanced, "Maju");
@@ -134,7 +135,7 @@ void set_ml(void)
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Sudut permulaan");
 
-
+	strcpy(s_Sticker, "Pelekat");
 	strcpy(s_Stock, "Stok");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "Tetapan sistem");

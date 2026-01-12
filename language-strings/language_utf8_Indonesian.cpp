@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_id(void)
 {
-	//Indonesian
-	//translated with google translate on 2020.07.06
-	// last update on: 2025.9.25.0
+	// Indonesian
+	// translated with google translate on 2020.07.06
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Luas");
 	strcpy(s_Mass, "Massa");
 	strcpy(s_Advanced, "Canggih");
@@ -134,7 +135,7 @@ void set_id(void)
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Sudut mulai");
 
-
+	strcpy(s_Sticker, "Stiker");
 	strcpy(s_Stock, "Persediaan");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "Pengaturan sistem");

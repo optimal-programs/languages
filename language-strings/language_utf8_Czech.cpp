@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_cz(void)
 {
-	//Czech
+	// Czech
 	// translated by a customer
 	// last update on: 2025.9.25.0
+	
 	strcpy(s_Area, "Plocha");
 	strcpy(s_Mass, "Hmotnost");
 	strcpy(s_Advanced, "Moderní");
@@ -134,7 +135,7 @@ void set_cz(void)
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Počáteční úhel");
 
-
+	strcpy(s_Sticker, "Nálepka");
 	strcpy(s_Stock, "Inventář");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "Nastavení systému");

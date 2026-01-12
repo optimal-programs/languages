@@ -157,7 +157,7 @@ extern char sCustomer[350];
 extern char sCustomerName[350];
 extern char sCutlength[350];
 extern char sCuts[100];
-extern char s_relative_cuts[350];
+extern char s_cuts_relative[350];
 extern char sCutterThickness[350];
 extern char sThetotallengthofcutting[350];
 extern char sData[350];
@@ -491,7 +491,7 @@ extern char sTrimEdge[350];
 //extern char sTypeofedgebandingforrightedgePleasedefineedgebandingtypesfromMaterialsEdgeBandingmenu[350];
 //extern char sTypeofedgebandingfortopedgePleasedefineedgebandingtypesfromMaterialsEdgeBandingmenu[350];
 extern char sTypeofmaterialfromwhichtocut[350];
-extern char sTypesAreNotMatched[500];
+extern char sTypesAreNotMatched[600];
 extern char sUndo[350];
 extern char sUndoAccept[350];
 extern char sUnits[350];
@@ -853,7 +853,7 @@ extern char s_Version[100];
 extern char s_Contact_us[100];
 extern char s_license_agreement_text[1000];
 extern char s_Cell[30];
-extern char s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator[200];
+extern char s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator[250];
 extern char s_Made_in[100];
 extern char s_Made_with_love_in_Cugir_Romania[200];
 extern char s_Manufacturer[100];
@@ -896,5 +896,11 @@ extern char s_Percentages[50];
 
 extern char s_Area[50];
 extern char s_Mass[50];
+
+extern char s_Sticker[50];
+extern char s_New[50];
+extern char s_Rename[50];
+extern char s_Contour[50];
+
 //----------------------------------------------------------------
 #endif

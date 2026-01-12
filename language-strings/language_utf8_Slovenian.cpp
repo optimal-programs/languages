@@ -9,8 +9,9 @@
 void set_sl(void)
 {
 	// Slovenian
-	//checked by a customer on 2022.11.14
-	// last update on: 2025.9.25.0
+	// checked by a customer on 2022.11.14
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Površina");
 	strcpy(s_Mass, "Masa");
 	strcpy(s_Advanced, "Napredno");
@@ -135,6 +136,8 @@ void set_sl(void)
 	strcpy(s_Starting_angle, "Začetni kot");
 	strcpy(s_Starting_corner, "Začetni vogal");
 	strcpy(s_Starting_direction, "Začetna smer");
+	
+	strcpy(s_Sticker, "Nalepka");
 	strcpy(s_Stock, "Zaloga");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "Sistemska nastavitev");

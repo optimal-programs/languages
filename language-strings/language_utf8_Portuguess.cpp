@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_pt(void)
 {
-	//Portuguess
-	//did not check manually
-	// last update on: 2025.9.25.0
+	// Portuguess
+	// did not check manually
+	// last update on: 2025.11.01.0
+
 	strcpy(s_Area, "Área");
 	strcpy(s_Mass, "Massa");
 	strcpy(s_Advanced, "Avançada");
@@ -133,7 +134,7 @@ void set_pt(void)
 	strcpy(s_Sort_descending_by, "Classificar decrescente por");
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Ângulo inicial");
-
+	strcpy(s_Sticker, "Adesivo");
 
 	strcpy(s_Stock, "Armzem");
 	strcpy(s_Stop, "Stop");

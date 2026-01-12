@@ -10,7 +10,7 @@ void set_ro(void)
 {
 	//Romanian
 	//OK
-	// last update on: 2025.9.25.0
+	// last update on: 2025.12.18.0
 	strcpy(s_Area, "Aria");
 	strcpy(s_Mass, "Masă");
 	strcpy(s_Advanced, "Avansat");
@@ -40,6 +40,7 @@ void set_ro(void)
 	strcpy(s_Contact_us, "Contactaţi-ne");
 	strcpy(s_Column, "Coloana");
 	strcpy(s_Comma, "Virgulă");
+	strcpy(s_Contour, "Contur");
 	strcpy(s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator, "Simbolul virgulă nu poate fi simultan separatorul de listă și separatorul zecimal!");
 	strcpy(s_Copy, "Copiază");
 	strcpy(s_Copy_for_move, "Copiază pentru mutare");
@@ -88,6 +89,7 @@ void set_ro(void)
 	strcpy(s_Multiple_shapes_detected_Next_rows_will_be_overwritten_Continue, "Au fost detectate mai multe forme. Prin urmare, rândurile următoare vor fi suprascrise. Continua?");
 	strcpy(s_More, "Mai mult");
 	strcpy(s_Multiple_values, "Valori multiple");
+	strcpy(s_New, "Nou");
 	strcpy(s_No_texture, "Fără fibră");
 	strcpy(s_Number, "Număr");
 	strcpy(s_Number_of_images, "Numărul de imagini");
@@ -109,6 +111,7 @@ void set_ro(void)
 	strcpy(s_Redo_the_last_operation, "Restaurați ultima operație");
 	strcpy(s_Regular_polygon, "Poligon regulat");
 	strcpy(s_Relative, "Relativ");
+	strcpy(s_Rename, "Redenumire");
 	strcpy(s_Reused, "Reutilizat");
 	strcpy(s_Rotated, "Rotit");
 	strcpy(s_Save_all, "Salvează tot");
@@ -135,6 +138,7 @@ void set_ro(void)
 	strcpy(s_Starting_angle, "Unghi de start");
 
 
+	strcpy(s_Sticker, "Sticker");
 	strcpy(s_Stock, "Magazie");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "Setarea sistemului");
@@ -708,4 +712,5 @@ void set_ro(void)
 	strcpy(s_Number_of_digits_after_the_decimal_separator, "Numărul de cifre după separatorul zecimal");
 	strcpy(s_Percentages, "Procente");
 }
+
 

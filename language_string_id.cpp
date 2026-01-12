@@ -164,7 +164,7 @@ char sCustomer[350];
 char sCustomerName[350];
 char sCutlength[350];
 char sCuts[100];
-char s_relative_cuts[350];
+char s_cuts_relative[350];
 char sCutterThickness[350];
 char sThetotallengthofcutting[350];
 char sData[350];
@@ -497,7 +497,7 @@ char sTypeofedgebandingforleftedgePleasedefineedgebandingtypesfromMaterialsEdgeB
 char sTypeofedgebandingforrightedgePleasedefineedgebandingtypesfromMaterialsEdgeBandingmenu[350];
 char sTypeofedgebandingfortopedgePleasedefineedgebandingtypesfromMaterialsEdgeBandingmenu[350];
 char sTypeofmaterialfromwhichtocut[350];
-char sTypesAreNotMatched[500];
+char sTypesAreNotMatched[600];
 char sUndo[350];
 char sUndoAccept[350];
 char sUnits[350];
@@ -869,7 +869,7 @@ char s_Version[100];
 char s_Contact_us[100];
 char s_license_agreement_text[1000];
 char s_Cell[30];
-char s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator[200];
+char s_The_comma_symbol_cannot_simultaneously_be_the_list_separator_and_the_decimal_separator[250];
 char s_Made_in[100];
 char s_Manufacturer[100];
 char s_The_value_is_out_of_the_allowed_range[200];
@@ -910,6 +910,14 @@ char s_Percentages[50];
 
 char s_Area[50];
 char s_Mass[50];
+
+char s_Sticker[50];
+
+char s_New[50];
+char s_Rename[50];
+
+char s_Contour[50];
+
 //------------------------------------------------------------------
 void set_composed_words(void)
 {
@@ -977,10 +985,10 @@ void set_composed_words(void)
 	strcpy(sWaste_percent, sWaste);
 	strcat(sWaste_percent, " %");
 
-	strcpy(s_relative_cuts, sCuts);
-	strcat(s_relative_cuts, " (");
-	strcat(s_relative_cuts, s_Relative);
-	strcat(s_relative_cuts, ")");
+	strcpy(s_cuts_relative, sCuts);
+	strcat(s_cuts_relative, " (");
+	strcat(s_cuts_relative, s_Relative);
+	strcat(s_cuts_relative, ")");
 }
 //------------------------------------------------------------------
 void load_language_from_strings(const char* Language)

@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_nl(void)
 {
-	//Dutch
-	//translated by a customer on 2022.12.22
-	// last update on: 2025.9.25.0
+	// Dutch
+	// translated by a customer on 2022.12.22
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Oppervlakte");
 	strcpy(s_Mass, "Massa");
 	strcpy(s_Advanced, "Geavanceerd");
@@ -135,6 +136,8 @@ void set_nl(void)
 	strcpy(s_Starting_angle, "Starthoek graden");
 	strcpy(s_Starting_corner, "Beginhoek");
 	strcpy(s_Starting_direction, "Startrichting");
+	
+	strcpy(s_Sticker, "Sticker");
 	strcpy(s_Stock, "VOORRAAD");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "Systeeminstelling");

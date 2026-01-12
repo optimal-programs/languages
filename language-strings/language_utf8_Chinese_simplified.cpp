@@ -10,7 +10,8 @@ void set_cn_s(void)
 {
 	// Chinese Simplified
 	// checked manually by a customer on 2023.1.17
-	// last update on: 2025.9.25.0
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "面积");
 	strcpy(s_Mass, "质量");
 	strcpy(s_Advanced, "先进的");
@@ -135,6 +136,7 @@ void set_cn_s(void)
 	strcpy(s_Starting_angle, "起始角度");
 	strcpy(s_Starting_corner, "起始点");
 	strcpy(s_Starting_direction, "起始方向");
+	strcpy(s_Sticker, "贴纸");
 	strcpy(s_Stock, "库存");
 	strcpy(s_Stop, "停止");
 	strcpy(s_System_setting, "系统设置");

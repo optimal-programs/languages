@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_tr(void)
 {
-	//Turkish
-	//did not check manually
-	// last update on: 2025.9.25.0
+	// Turkish
+	// did not check manually
+	// last update on: 2025.11.01.0
+
 	strcpy(s_Area, "Alan");
 	strcpy(s_Mass, "Kütle");
 	strcpy(s_Advanced, "Gelişmiş");
@@ -133,7 +134,7 @@ void set_tr(void)
 	strcpy(s_Sort_descending_by, "Azalanlara göre sırala");
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Başlangıç açısı");
-
+	strcpy(s_Sticker, "Çıkartma");
 
 	strcpy(s_Stock, "Envanter");
 	strcpy(s_Stop, "Stop");

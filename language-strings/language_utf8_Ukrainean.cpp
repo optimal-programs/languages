@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_uk(void)
 {
-	//Ukrainean
+	// Ukrainean
 	// translated by a distributor
-	// last update on: 2025.9.25.0
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "Площа");
 	strcpy(s_Mass, "Маса");
 	strcpy(s_Advanced, "Просунутий");
@@ -133,7 +134,7 @@ void set_uk(void)
 	strcpy(s_Sort_descending_by, "Сортувати за спаданням за");
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "Початковий кут");
-
+	strcpy(s_Sticker, "Наклейка");
 
 	strcpy(s_Stock, "СКЛАД");
 	strcpy(s_Stop, "Stop");

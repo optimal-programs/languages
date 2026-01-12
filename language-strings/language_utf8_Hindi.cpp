@@ -8,9 +8,10 @@
 //---------------------------------------------------------------------------
 void set_hindi(void)
 {
-	//Hindi
+	// Hindi
 	// Google translate on 2020.08.29
-	// last update on: 2025.9.25.0
+	// last update on: 2025.11.01.0
+	
 	strcpy(s_Area, "क्षेत्रफल");
 	strcpy(s_Mass, "द्रव्यमान");
 	strcpy(s_Advanced, "विकसित");
@@ -134,7 +135,7 @@ void set_hindi(void)
 	strcpy(s_Start, "Start");
 	strcpy(s_Starting_angle, "कोण शुरू करना");
 
-
+	strcpy(s_Sticker, "कँटिया");
 	strcpy(s_Stock, "भण्डार");
 	strcpy(s_Stop, "Stop");
 	strcpy(s_System_setting, "सिस्टम की सेटिंग्स");
